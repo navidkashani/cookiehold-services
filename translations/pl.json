@@ -498,6 +498,13 @@
     },
     "machine": true
   },
+  "hubspot-forms": {
+    "purpose": "Wyświetla formularze HubSpot i czat na żywo.",
+    "cookies": {
+      "messagesUtk": "Rozpoznaje odwiedzającego na czacie."
+    },
+    "machine": true
+  },
   "imgur": {
     "purpose": "Wyświetla osadzone posty i obrazy z Imgur.",
     "machine": true

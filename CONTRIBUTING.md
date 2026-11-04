@@ -33,7 +33,11 @@ site owners, so every change is checked before it is merged.
    describes each one.
 3. Add every host its scripts, iframes and pixels load from. A host already
    claimed by another service can't be claimed twice: use a longer pattern
-   with a path, such as `google.com/recaptcha`.
+   with a path, such as `google.com/recaptcha`. A path segment that is only `*`
+   stands for exactly one non-empty segment, never the query, such as
+   `connect.facebook.net/*/sdk.js` for the SDK in any language. Keep the literal
+   patterns a service already has beside it: older plugins read `*` as a
+   character, so the wildcard matches nothing there.
 4. Run the checks:
 
    ```
