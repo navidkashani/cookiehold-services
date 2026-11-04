@@ -15,7 +15,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 
 const ROOT = resolve(import.meta.dirname, '..');
-const REPO = 'navidkashani/cookiehold-services';
+const REPO = 'veronalabs/cookiehold-services';
 
 const parse = (v) => v.split('.').map(Number);
 const newer = (a, b) => {

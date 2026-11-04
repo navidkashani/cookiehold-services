@@ -26,7 +26,7 @@ the data under the [GPL-3.0](LICENSE).
 
 ```json
 {
-  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json",
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "hotjar",
   "version": 2,
   "name": "Hotjar",
@@ -107,14 +107,14 @@ Each release builds `dist/`:
 Read the index from the newest release of format 1:
 
 ```
-https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/dist/index.json
+https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/dist/index.json
 ```
 
 Then fetch the files you need from that exact version, and check each one's
 sha256 against the index:
 
 ```
-https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1.4.0/dist/services.json
+https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1.4.0/dist/services.json
 ```
 
 A change that would break a reader of the current layout becomes format 2,

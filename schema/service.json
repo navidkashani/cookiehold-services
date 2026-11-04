@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json",
+  "$id": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "title": "Service",
   "description": "One third-party service: how to recognise it on a page, what it stores in the browser, and who receives the data. Every file in services/ must validate against this schema.",
   "type": "object",
@@ -12,7 +12,7 @@
     { "properties": { "match": { "type": "object", "maxProperties": 0 }, "cookies": { "type": "array", "minItems": 1 } } }
   ],
   "properties": {
-    "$schema": { "const": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json" },
+    "$schema": { "const": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json" },
     "id": {
       "type": "string",
       "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
