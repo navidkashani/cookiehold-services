@@ -1,0 +1,51 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "hubspot-forms",
+  "version": 1,
+  "name": "HubSpot forms and chat",
+  "provider": "HubSpot Ireland Limited",
+  "category": "functional",
+  "purpose": "Shows HubSpot forms and live chat.",
+  "privacyUrl": "https://legal.hubspot.com/privacy-policy",
+  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "legalBasis": "consent",
+  "match": {
+    "hosts": [
+      "hsforms.net",
+      "hsforms.com",
+      "usemessages.com"
+    ],
+    "inline": [
+      "hbspt.forms.create("
+    ]
+  },
+  "cookies": [
+    {
+      "name": "messagesUtk",
+      "lifetime": "6 months",
+      "purpose": "Recognises the visitor in the chat."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": "form",
+  "wordpress": {
+    "plugins": [
+      "leadin/leadin.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://knowledge.hubspot.com/domains-and-urls/ssl-and-domain-security-in-hubspot",
+    "https://knowledge.hubspot.com/privacy-and-consent/what-cookies-does-hubspot-set-in-a-visitor-s-browser",
+    "https://knowledge.hubspot.com/chatflows/chat-widget-is-not-appearing-on-your-pages",
+    "https://developers.hubspot.com/docs/cms/start-building/features/forms/legacy-forms",
+    "https://legal.hubspot.com/privacy-policy",
+    "https://wordpress.org/plugins/leadin/",
+    "https://www.dataprivacyframework.gov/list"
+  ],
+  "checked": "2026-11-04"
+}

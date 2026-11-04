@@ -498,6 +498,13 @@
     },
     "machine": true
   },
+  "hubspot-forms": {
+    "purpose": "Zeigt HubSpot-Formulare und den Live-Chat an.",
+    "cookies": {
+      "messagesUtk": "Erkennt den Besucher im Chat."
+    },
+    "machine": true
+  },
   "imgur": {
     "purpose": "Zeigt eingebettete Imgur-Beiträge und -Bilder an.",
     "machine": true

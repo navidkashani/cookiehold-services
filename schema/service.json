@@ -53,7 +53,7 @@
       "properties": {
         "hosts": {
           "type": "array",
-          "items": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}(/[^\\s]*)?$", "maxLength": 120 },
+          "items": { "type": "string", "pattern": "^[a-z0-9.-]+\\.[a-z]{2,}(/[^\\s]*)?$", "maxLength": 120, "description": "A host, or a host and the start of a path. A path segment that is only * stands for exactly one non-empty segment, never the query." },
           "uniqueItems": true
         },
         "inline": {

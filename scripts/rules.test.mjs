@@ -50,6 +50,20 @@ test('two services may not claim one host', () => {
   assert.equal(only(problems, 'already claimed by example').length, 1);
 });
 
+test('a wildcard may not cover another service\'s pattern', () => {
+  const wild = service({ match: { hosts: ['cdn.example.com/*/x.js'] } });
+  const literal = service({ id: 'second', match: { hosts: ['cdn.example.com/en/x.js'] } });
+  const otherWild = service({ id: 'second', match: { hosts: ['cdn.example.com/en/*'] } });
+  assert.equal(only(checkServices(files(wild, literal)), 'also covers "cdn.example.com/en/x.js", already claimed by second').length, 1);
+  assert.equal(only(checkServices(files(wild, otherWild)), 'also covers').length, 2);
+});
+
+test('a wildcard may sit beside its own literal patterns, and a longer path beside it', () => {
+  const own = service({ match: { hosts: ['cdn.example.com/*/x.js', 'cdn.example.com/en/x.js'] } });
+  const deeper = service({ id: 'second', match: { hosts: ['cdn.example.com/a/b/x.js', 'cdn.example.com/en/y.js'] } });
+  assert.deepEqual(checkServices(files(own, deeper)), []);
+});
+
 test('links must be https', () => {
   assert.notDeepEqual(checkServices(files(service({ privacyUrl: 'http://example.com/privacy' }))), []);
   assert.notDeepEqual(checkServices(files(service({ sources: ['http://example.com'] }))), []);

@@ -36,6 +36,15 @@ const SHOP_KEYS = ['wc_fragments_0f3c', 'wc_cart_hash_0f3c', 'wc_cart_created', 
 // naming one would pin the site's own cookie on that service.
 const SHARED_NAMES = ['__cf_bm', '_cf_bm', '_cfuvid', 'cf_clearance', '__cflb', 'cf_chl_rc_m', 'INGRESSCOOKIE', 'AWSALB', 'AWSALBCORS', 'PHPSESSID', 'wordpress_test_cookie', 'wordpress_logged_in_0f3c', 'wp-settings-1', 'wp_lang'];
 
+// Whether a pattern with a * segment and another pattern claim the same
+// addresses. A * stands for exactly one non-empty path segment, never the query.
+// (A plain longer path is not this: the longest pattern wins, as for
+// google.com/recaptcha, so it may sit under another service's host.)
+export const sameAddresses = (a, b) => {
+  const [x, y] = [a.split('/'), b.split('/')];
+  return x.length === y.length && x.every((segment, i) => segment === y[i] || (i > 0 && (segment === '*' || y[i] === '*')));
+};
+
 /**
  * @param {Map<string, {text: string, data: unknown}>} files services/<id>.json, keyed by id
  * @returns {string[]} problems, each naming the file
@@ -82,6 +91,14 @@ export function checkServices(files) {
 
     if (data.replacedBy === id) problems.push(`${where}: replacedBy points to itself.`);
     if (firstSentence(data.purpose).length > CARD_TEXT) problems.push(`${where}: the purpose's first sentence is longer than ${CARD_TEXT} characters.`);
+  }
+
+  // One service may keep literal patterns beside its own wildcard; two may not meet.
+  for (const [pattern, id] of hosts) {
+    if (!pattern.includes('/*')) continue;
+    for (const [other, owner] of hosts) {
+      if (owner !== id && sameAddresses(pattern, other)) problems.push(`services/${id}.json: the host "${pattern}" also covers "${other}", already claimed by ${owner}.`);
+    }
   }
 
   for (const [id, data] of services) {
