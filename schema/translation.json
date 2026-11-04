@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/translation.json",
+  "$id": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/translation.json",
   "title": "Translation",
   "description": "The visitor-facing texts of services in one language, keyed by service id. Names, cookie names and web addresses are never translated. Every file in translations/ must validate against this schema.",
   "type": "object",

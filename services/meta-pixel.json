@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json",
   "id": "meta-pixel",
   "version": 3,
   "name": "Meta Pixel",
