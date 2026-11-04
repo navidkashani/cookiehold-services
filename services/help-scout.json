@@ -1,5 +1,5 @@
 {
-  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json",
   "id": "help-scout",
   "version": 1,
   "name": "Help Scout Beacon",

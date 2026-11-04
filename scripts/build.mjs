@@ -9,7 +9,7 @@
 // throws away a download that does not match. Files are fetched from the
 // exact version's folder, which jsDelivr never changes once served:
 //
-//     https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@<version>/dist/<path>
+//     https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@<version>/dist/<path>
 //
 // The output depends only on the repository's files, so the release workflow
 // can rebuild it and prove the committed dist/ is the real thing.

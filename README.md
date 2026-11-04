@@ -1,11 +1,11 @@
-# WConsent services
+# CookieHold services
 
 An open list of third-party web services: analytics, advertising pixels,
 video and map embeds, chat widgets, forms, payments. For each service it says
 how to recognise it on a page, which cookies it sets, who receives the data
 and where. Every entry is checked against the vendor's own pages.
 
-The [WConsent](https://wconsent.io) cookie consent plugin for WordPress reads
+The [CookieHold](https://cookiehold.com) cookie consent plugin for WordPress reads
 this list to block services until a visitor agrees and to describe them in its
 preferences window. Sites check for a new release once a week. Anyone may use
 the data under the [GPL-3.0](LICENSE).
@@ -26,7 +26,7 @@ the data under the [GPL-3.0](LICENSE).
 
 ```json
 {
-  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json",
+  "$schema": "https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json",
   "id": "hotjar",
   "version": 2,
   "name": "Hotjar",
@@ -107,14 +107,14 @@ Each release builds `dist/`:
 Read the index from the newest release of format 1:
 
 ```
-https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/dist/index.json
+https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/dist/index.json
 ```
 
 Then fetch the files you need from that exact version, and check each one's
 sha256 against the index:
 
 ```
-https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1.4.0/dist/services.json
+https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1.4.0/dist/services.json
 ```
 
 A change that would break a reader of the current layout becomes format 2,

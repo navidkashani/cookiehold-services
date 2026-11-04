@@ -5,7 +5,7 @@ import { parseCsv } from './lib/csv.mjs';
 import { checkCommon, checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
 
 const service = (overrides = {}) => ({
-  $schema: 'https://cdn.jsdelivr.net/gh/navidkashani/wconsent-services@1/schema/service.json',
+  $schema: 'https://cdn.jsdelivr.net/gh/navidkashani/cookiehold-services@1/schema/service.json',
   id: 'example',
   version: 1,
   name: 'Example',
@@ -126,8 +126,8 @@ test('a translation file is named after a WordPress locale', () => {
 });
 
 test('public files carry no private links or internal words', () => {
-  assert.equal(checkPublic('README.md', `See https://github.com/navidkashani/${'wconsent'}/issues/1`).length, 1);
-  assert.equal(checkPublic('README.md', 'See https://github.com/navidkashani/wconsent-services').length, 0);
+  assert.equal(checkPublic('README.md', `See https://github.com/navidkashani/${'cookiehold'}/issues/1`).length, 1);
+  assert.equal(checkPublic('README.md', 'See https://github.com/navidkashani/cookiehold-services').length, 0);
   for (const word of ['TO' + 'DO', 'FIX' + 'ME', 'P' + 'ro', 'Nex' + 'us', 'A' + 'DR']) {
     assert.equal(checkPublic('README.md', `A ${word} here.`).length, 1, word);
   }
