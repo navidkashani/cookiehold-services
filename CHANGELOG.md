@@ -2,6 +2,16 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.5.0 (2026-11-04)
+
+- HubSpot forms and chat, Functional, with machine translations in seven
+  languages (#28).
+- A host pattern's path may hold a `*` segment, standing for exactly one
+  non-empty segment. Facebook embeds use it, so the Facebook SDK is External
+  media in every language, not only the ten listed (#28).
+- Point at the new veronalabs home (#27)
+- Rename to CookieHold (#26)
+
 ## 1.4.0 (2026-11-01)
 
 - 101 new services, each checked against the vendor's own pages, with machine
