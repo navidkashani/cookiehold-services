@@ -195,7 +195,7 @@ export function checkLogo(id, text, services) {
 
 // Words and links that belong in no public file of this repository.
 const PRIVATE = [
-  [/github\.com\/navidkashani\/cookiehold(?![-\w])/, 'a link to a private repository'],
+  [/github\.com\/(?:navidkashani|veronalabs)\/cookiehold(?![-\w])/, 'a link to a private repository'],
   [/\bTODO\b/, 'TODO'],
   [/\bFIXME\b/, 'FIXME'],
   [/\bPro\b/, '"Pro"'],
