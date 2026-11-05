@@ -2,6 +2,11 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.6.0 (2026-11-05)
+
+- Cloudflare Web Analytics joins `common.json`, because Cloudflare's automatic
+  setup adds its beacon after the site has sent the page (#30).
+
 ## 1.5.0 (2026-11-04)
 
 - HubSpot forms and chat, Functional, with machine translations in seven
