@@ -22,7 +22,7 @@
   "cookies": [
     {
       "name": "SL_C_*",
-      "lifetime": "13 months; probes removed",
+      "lifetime": "Up to 13 months",
       "purpose": "Stores visitor and session IDs or checks the cookie domain."
     }
   ],

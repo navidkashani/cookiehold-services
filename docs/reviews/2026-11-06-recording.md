@@ -73,7 +73,7 @@ Outcome: **corrected**, version 2 → 3, with unresolved findings.
 [Cookies and Smartlook](https://help.smartlook.com/docs/cookies-smartlook)
 supports the existing storage names and visitor/session cookie, but also
 documents a temporary domain probe covered by `SL_C_*`. Change that family's
-duration to `13 months; probes removed` and its purpose to mention the domain
+duration to `Up to 13 months` and its purpose to mention the domain
 check. This preserves the match while avoiding a single inaccurate lifetime.
 Remove the seven stale machine-translated cookie purposes, leaving their
 service purposes and machine flags intact. The optional cookie translations

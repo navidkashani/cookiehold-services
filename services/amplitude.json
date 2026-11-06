@@ -21,7 +21,7 @@
   "cookies": [
     {
       "name": "AMP_*",
-      "lifetime": "1 year; probes removed",
+      "lifetime": "Up to 1 year",
       "purpose": "Tells visitors apart."
     },
     {

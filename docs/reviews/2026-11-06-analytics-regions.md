@@ -32,7 +32,7 @@ but distinguishes its controller role from customer analytics processing.
 [Cookie and consent documentation](https://amplitude.com/docs/sdks/analytics/browser/cookies-and-consent-management)
 supports the two cookie families and unsent-event storage. `AMP_*` also
 matches short-lived probes, so qualify its duration as
-`1 year; probes removed`. Keep the ordinary marketing-cookie duration.
+`Up to 1 year`. Keep the ordinary marketing-cookie duration.
 Guidance addresses initialization and storage settings.
 
 Unresolved: the broad `AMP_*` family overlaps `AMP_MKTG_*` and includes
