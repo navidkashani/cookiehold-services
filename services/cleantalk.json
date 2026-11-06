@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "cleantalk",
-  "version": 1,
+  "version": 2,
   "name": "CleanTalk Anti-Spam",
   "provider": "CleanTalk Inc.",
   "category": "essential",
   "purpose": "Keeps spam out of forms and comments.",
   "privacyUrl": "https://cleantalk.org/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework) and EU",
+  "dataCountry": "USA and EU; EU-only storage option",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -166,7 +166,9 @@
     "https://plugins.svn.wordpress.org/cleantalk-spam-protect/trunk/",
     "https://wordpress.org/plugins/cleantalk-spam-protect/",
     "https://wordpress.org/support/topic/cookies-and-personal-data/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/cleantalk-spam-protect/trunk/lib/Cleantalk/ApbctWP/ApbctJsBundleResolver.php",
+    "https://plugins.svn.wordpress.org/cleantalk-spam-protect/trunk/lib/Cleantalk/ApbctWP/BotDetectorService.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "jetpack-comments",
-  "version": 1,
+  "version": 2,
   "name": "Jetpack Comments",
   "provider": "Aut O'Mattic A8C Ireland Ltd.",
   "category": "functional",
   "purpose": "Shows the comment form with social sign-in.",
   "privacyUrl": "https://automattic.com/privacy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -39,5 +39,5 @@
     "https://wordpress.org/plugins/jetpack/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

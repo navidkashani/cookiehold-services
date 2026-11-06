@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "awin",
+  "version": 1,
+  "notes": [
+    {
+      "id": "consent-signal-scope",
+      "kind": "caveat",
+      "text": "When using Awin consent signals, set AWIN.Tracking.AdvertiserConsent before the MasterTag loads and pass later changes through its consent API. Missing or invalid values are treated as consent having been obtained. Awin documents exceptions for cashback and loyalty tracking, and says partner plugins are outside this signal mechanism. Do not treat the signal as a switch that blocks every Awin request or as a decision about your legal obligations.",
+      "sources": [
+        "https://help.awin.com/developers/docs/implementing-awin-consent"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

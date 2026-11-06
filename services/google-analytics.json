@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-analytics",
-  "version": 3,
+  "version": 4,
   "name": "Google Analytics",
   "provider": "Google Ireland Limited",
   "category": "statistics",
   "purpose": "Measures visits and conversions.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -94,7 +94,12 @@
     "https://plugins.svn.wordpress.org/wp-analytify/trunk/wp-analytify.php",
     "https://plugins.svn.wordpress.org/ga-google-analytics/trunk/ga-google-analytics.php",
     "https://plugins.svn.wordpress.org/woocommerce-google-analytics-integration/trunk/woocommerce-google-analytics-integration.php",
-    "https://plugins.svn.wordpress.org/seo-by-rank-math/trunk/rank-math.php"
+    "https://plugins.svn.wordpress.org/seo-by-rank-math/trunk/rank-math.php",
+    "https://support.google.com/analytics/answer/11397207?hl=en",
+    "https://business.safety.google/static/assets/csv/adcookies.csv",
+    "https://developers.google.com/tag-platform/gtagjs",
+    "https://developers.google.com/tag-platform/security/concepts/consent-mode",
+    "https://support.google.com/analytics/answer/12017362?hl=en"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "jquery-cdn",
-  "version": 1,
+  "version": 2,
   "name": "jQuery CDN",
   "provider": "OpenJS Foundation",
   "category": "essential",
   "purpose": "Delivers code libraries the site uses.",
   "privacyUrl": "https://openjsf.org/privacy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -32,5 +32,5 @@
     "https://github.com/jquery/infrastructure-puppet/blob/staging/doc/cdn.md",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

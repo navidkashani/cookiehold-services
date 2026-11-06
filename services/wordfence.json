@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "wordfence",
-  "version": 1,
+  "version": 2,
   "name": "Wordfence",
   "provider": "Defiant, Inc.",
   "category": "essential",
   "purpose": "Protects the site from attacks and spam logins.",
   "privacyUrl": "https://www.wordfence.com/privacy-policy/",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "legitimate-interest",
   "match": {},
   "cookies": [
@@ -54,7 +54,10 @@
     "https://plugins.svn.wordpress.org/wordfence/trunk/",
     "https://plugins.svn.wordpress.org/wordfence/trunk/wordfence.php",
     "https://wordpress.org/plugins/wordfence/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://plugins.svn.wordpress.org/wordfence/trunk/lib/wordfenceClass.php",
+    "https://plugins.svn.wordpress.org/wordfence/trunk/models/block/wfBlock.php",
+    "https://plugins.svn.wordpress.org/wordfence/trunk/modules/login-security/classes/controller/users.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

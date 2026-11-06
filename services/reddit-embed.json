@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "reddit-embed",
-  "version": 1,
+  "version": 2,
   "name": "Reddit embeds",
   "provider": "Reddit Netherlands B.V.",
   "category": "media",
   "purpose": "Shows embedded Reddit posts and comments.",
   "privacyUrl": "https://www.reddit.com/policies/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -40,5 +40,5 @@
     "https://core.svn.wordpress.org/trunk/wp-includes/class-wp-oembed.php",
     "https://github.com/jkwakman/Open-Cookie-Database"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

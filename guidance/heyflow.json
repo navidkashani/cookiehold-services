@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "heyflow",
+  "version": 1,
+  "notes": [
+    {
+      "id": "embedded-consent-limit",
+      "kind": "caveat",
+      "text": "Heyflow’s built-in cookie banner is shown only in standalone flows. In an embedded flow, it is not displayed and analytics integrations may fail to load correctly. Review the flow’s tracking integrations and control when the embed loads through your website’s consent setup. Heyflow says external cookie tools cannot currently control individual scripts inside a flow.",
+      "sources": [
+        "https://help.heyflow.com/en/articles/12182457-cookie-consent-intro"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

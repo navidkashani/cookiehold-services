@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-maps",
-  "version": 2,
+  "version": 3,
   "name": "Google Maps",
   "provider": "Google Ireland Limited",
   "category": "media",
   "purpose": "Shows embedded maps.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -47,7 +47,8 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/wp-google-maps/trunk/",
     "https://plugins.svn.wordpress.org/agile-store-locator/trunk/",
-    "https://plugins.svn.wordpress.org/wp-store-locator/trunk/"
+    "https://plugins.svn.wordpress.org/wp-store-locator/trunk/",
+    "https://developers.google.com/maps/documentation/embed/get-started"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

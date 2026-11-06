@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mailerlite",
-  "version": 1,
+  "version": 2,
   "name": "MailerLite",
   "provider": "MailerLite Limited",
   "category": "marketing",
   "purpose": "Shows sign-up forms and tracks visits.",
   "privacyUrl": "https://www.mailerlite.com/legal/privacy-policy",
-  "dataCountry": "EU (Netherlands and Germany)",
+  "dataCountry": "EU (Netherlands and Germany); USA for customers outside EEA, UK and Switzerland",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -34,7 +34,7 @@
     },
     {
       "name": "mailerlite_forms_submitted_*",
-      "lifetime": "27 years",
+      "lifetime": "9999 days",
       "purpose": "Remembers that a form was submitted."
     }
   ],
@@ -60,7 +60,8 @@
     "https://assets.mailerlite.com/js/universal.js",
     "https://static.mailerlite.com/js/universal.js",
     "https://wordpress.org/plugins/official-mailerlite-sign-up-forms/",
-    "https://plugins.svn.wordpress.org/official-mailerlite-sign-up-forms/trunk/"
+    "https://plugins.svn.wordpress.org/official-mailerlite-sign-up-forms/trunk/",
+    "https://www.mailerlite.com/legal/data-processing-agreement"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

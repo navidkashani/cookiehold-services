@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "eversports",
+  "version": 1,
+  "notes": [
+    {
+      "id": "replace-legacy-embeds",
+      "kind": "setup",
+      "text": "Replace legacy Eversports widget links and embed code with the new individual widgets or Widget Overview. Eversports ended direct bookings through old widget links after May 31, 2026; those links redirect to the overview instead. Review the overview’s contents and test the destination of your booking links, including links in emails and automations.",
+      "sources": [
+        "https://helpcenter.eversportsmanager.com/-old-widget-is-being-discontinued-what-you-need-to-do"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

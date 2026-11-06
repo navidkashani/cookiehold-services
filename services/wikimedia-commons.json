@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "wikimedia-commons",
-  "version": 1,
+  "version": 2,
   "name": "Wikimedia Commons",
   "provider": "Wikimedia Foundation, Inc.",
   "category": "media",
   "purpose": "Shows images and media from Wikimedia Commons.",
   "privacyUrl": "https://foundation.wikimedia.org/wiki/Policy:Privacy_policy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -55,5 +55,5 @@
     "https://www.dataprivacyframework.gov/list",
     "https://github.com/jkwakman/Open-Cookie-Database"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

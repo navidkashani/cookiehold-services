@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "podigee",
+  "version": 1,
+  "notes": [
+    {
+      "id": "script-placement",
+      "kind": "setup",
+      "text": "Place Podigee’s standard script embed in the page body. Loading it in the page head is not supported. Copy the complete code from your podcast or episode, and check the published page because available functions vary with the player configuration.",
+      "sources": [
+        "https://help.podigee.com/article/271-simple-player-embed"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

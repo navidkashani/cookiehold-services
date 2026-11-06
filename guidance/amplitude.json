@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "amplitude",
+  "version": 1,
+  "notes": [
+    {
+      "id": "initialization-and-storage",
+      "kind": "setup",
+      "text": "Amplitude can create cookies when its browser SDK initializes, even with event tracking opted out. If your setup must avoid those cookies until the visitor chooses, defer initialization. Switching to local storage changes persistence; it is not a switch that stops data collection.",
+      "sources": [
+        "https://amplitude.com/docs/sdks/analytics/browser/cookies-and-consent-management"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

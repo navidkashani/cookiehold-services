@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "contentsquare",
+  "version": 1,
+  "notes": [
+    {
+      "id": "cookieless-storage",
+      "kind": "caveat",
+      "text": "Contentsquare’s cookieless tracking mode moves tracking state into local storage and session storage. It does not mean there is no browser storage. Check the project’s collection settings separately when deciding when its tag should run.",
+      "sources": [
+        "https://docs.contentsquare.com/en/web/cookies/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

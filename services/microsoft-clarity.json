@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "microsoft-clarity",
-  "version": 2,
+  "version": 3,
   "name": "Microsoft Clarity",
   "provider": "Microsoft Ireland Operations Limited",
   "category": "statistics",
   "purpose": "Heatmaps and session recordings.",
   "privacyUrl": "https://www.microsoft.com/en-us/privacy/privacystatement",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -26,7 +26,7 @@
     },
     {
       "name": "_clsk",
-      "lifetime": "Session",
+      "lifetime": "1 day",
       "purpose": "Joins page views into one recording."
     },
     {
@@ -56,7 +56,9 @@
       "purpose": "Checks if the Microsoft ID is used for ads."
     }
   ],
-  "storage": [],
+  "storage": [
+    "_cltk"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -75,7 +77,11 @@
     "https://www.microsoft.com/en-us/privacy/privacystatement",
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://wordpress.org/plugins/microsoft-clarity/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/microsoft/clarity/master/packages/clarity-js/types/data.d.ts",
+    "https://raw.githubusercontent.com/microsoft/clarity/master/packages/clarity-js/src/data/metadata.ts",
+    "https://raw.githubusercontent.com/microsoft/clarity/master/packages/clarity-js/src/data/cookie.ts",
+    "https://plugins.svn.wordpress.org/microsoft-clarity/trunk/clarity.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

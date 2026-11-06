@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "discord-widget",
+  "version": 1,
+  "notes": [
+    {
+      "id": "widget-invites",
+      "kind": "setup",
+      "text": "Check the widget settings in your Discord server before embedding it. The widget can include an invitation to the selected channel as well as online-member information. Set the invite channel to no invite if you only want to display the widget without offering a join link.",
+      "sources": [
+        "https://docs.discord.com/developers/resources/guild",
+        "https://discord.com/blog/add-the-discord-widget-to-your-site"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "tiktok-pixel",
+  "version": 1,
+  "notes": [
+    {
+      "id": "first-party-cookie-toggle",
+      "kind": "caveat",
+      "text": "Turning off first-party cookies in TikTok Pixel settings stops it from setting new first-party cookies. TikTok says existing first-party cookies continue operating until they expire, and third-party cookies are a separate part of the pixel. Review the complete pixel setup when changing this setting; switching it off does not by itself stop all measurement.",
+      "sources": [
+        "https://ads.tiktok.com/help/article/using-cookies-with-tiktok-pixel"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

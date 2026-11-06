@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "spotify",
+  "version": 1,
+  "notes": [
+    {
+      "id": "encrypted-media-permission",
+      "kind": "setup",
+      "text": "Preserve the encrypted-media permission in Spotify’s generated embed code. Removing it can limit playback to previews. If only previews play, also check whether the visitor’s browser supports Spotify playback.",
+      "sources": [
+        "https://developer.spotify.com/documentation/embeds/tutorials/troubleshooting"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

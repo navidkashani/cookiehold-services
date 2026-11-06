@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "matomo",
-  "version": 1,
+  "version": 2,
   "name": "Matomo",
   "provider": "",
   "category": "statistics",
@@ -37,7 +37,7 @@
     },
     {
       "name": "_pk_testcookie*",
-      "lifetime": "Session",
+      "lifetime": "Deleted after check",
       "purpose": "Checks that cookies work."
     },
     {
@@ -92,5 +92,5 @@
     "https://wordpress.org/plugins/wp-piwik/",
     "https://plugins.svn.wordpress.org/wp-piwik/trunk/wp-piwik.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

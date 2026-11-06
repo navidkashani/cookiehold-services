@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "onesignal",
-  "version": 1,
+  "version": 2,
   "name": "OneSignal",
   "provider": "OneSignal, Inc.",
   "category": "marketing",
   "purpose": "Sends web push notifications and in-app messages.",
   "privacyUrl": "https://onesignal.com/privacy_policy",
-  "dataCountry": "Europe and USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Europe; access from USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -51,5 +51,5 @@
     "https://plugins.svn.wordpress.org/onesignal-free-web-push-notifications/trunk/v3/onesignal-init.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

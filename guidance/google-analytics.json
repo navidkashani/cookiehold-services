@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "google-analytics",
+  "version": 1,
+  "notes": [
+    {
+      "id": "enhanced-measurement",
+      "kind": "setup",
+      "text": "In your GA4 web data stream, review the individual Enhanced measurement options, including site search, outbound clicks and form interactions. These can send events without extra site code. Check the parameters being collected, especially search terms and URLs, and keep personally identifiable information out of Analytics.",
+      "sources": [
+        "https://support.google.com/analytics/answer/9216061?hl=en"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "consent-mode-choice",
+      "kind": "caveat",
+      "text": "Choose the Consent Mode setup deliberately: Google's basic implementation blocks Google tags until consent is granted, while its advanced implementation loads them with consent defaults and can send cookieless measurements when consent is denied. Denied storage consent alone does not mean no data is sent. These are Google tag behaviors; the outcome depends on your site's implementation.",
+      "sources": [
+        "https://developers.google.com/tag-platform/security/concepts/consent-mode"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

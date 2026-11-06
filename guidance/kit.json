@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "kit",
+  "version": 1,
+  "notes": [
+    {
+      "id": "email-link-identification",
+      "kind": "caveat",
+      "text": "Review Kit's Advanced email-link tracking settings when connecting a WordPress site. Subscriber IDs enable page-visit tagging and personalized content. The separate hashed-email option lets third parties match link clicks to an email address they already hold. Hashing therefore does not make these visits anonymous; choose these settings separately from campaign UTM tags.",
+      "sources": [
+        "https://help.kit.com/en/articles/9375532-global-advanced-tracking"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

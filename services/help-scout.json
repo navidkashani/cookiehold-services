@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "help-scout",
-  "version": 1,
+  "version": 2,
   "name": "Help Scout Beacon",
   "provider": "Help Scout PBC",
   "category": "functional",
   "purpose": "Live chat and help articles.",
   "privacyUrl": "https://www.helpscout.com/company/legal/privacy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -40,7 +40,10 @@
     "https://www.helpscout.com/company/legal/privacy/",
     "https://www.helpscout.com/company/legal/cookie-policy/",
     "https://www.dataprivacyframework.gov/list",
-    "https://plugins.svn.wordpress.org/help-scout/trunk/"
+    "https://plugins.svn.wordpress.org/help-scout/trunk/",
+    "https://www.helpscout.com/company/legal/dpa/",
+    "https://www.helpscout.com/company/legal/sub-processors/",
+    "https://docs.helpscout.com/article/1263-security-at-help-scout"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

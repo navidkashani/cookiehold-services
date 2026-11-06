@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "taboola",
-  "version": 2,
+  "version": 3,
   "name": "Taboola",
   "provider": "Taboola.com Ltd.",
   "category": "marketing",
   "purpose": "Shows sponsored content and measures it.",
   "privacyUrl": "https://policies.taboola.com/privacy-policy/",
-  "dataCountry": "Israel and USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Israel and USA storage; processing also in EU, UK, Singapore and Japan",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -45,7 +45,10 @@
       "purpose": "Avoids showing the same content twice."
     }
   ],
-  "storage": [],
+  "storage": [
+    "_taboolaStorageDetection",
+    "tbl_rtus_id"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -60,5 +63,5 @@
     "https://policies.taboola.com/cookie-policy/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

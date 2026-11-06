@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "reddit-embed",
+  "version": 1,
+  "notes": [
+    {
+      "id": "changed-source-content",
+      "kind": "caveat",
+      "text": "A Reddit embed is not a fixed copy of the original post or comment. Reddit says edits or deletion cause the embed to show a change notice with a link to the current version. Recheck embedded material that your page relies on, especially if it supports instructions or a quotation.",
+      "sources": [
+        "https://support.reddithelp.com/hc/en-us/articles/360043033532-How-do-I-embed-a-Reddit-post-or-comment-in-an-article-or-other-publication"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "popup-maker",
+  "version": 1,
+  "notes": [
+    {
+      "id": "cookie-event-choice",
+      "kind": "setup",
+      "text": "Choose the cookie event to match when a popup should stop appearing. Popup Maker defaults to setting its cookie when the visitor closes the popup, so simply seeing it does not prevent another display. Use the open event if seeing it should be enough, or the form-submission event for a supported form. Check this alongside the popup trigger and configured duration.",
+      "sources": [
+        "https://wppopupmaker.com/docs/controlling-popups/cookie-settings/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

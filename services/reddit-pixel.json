@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "reddit-pixel",
-  "version": 2,
+  "version": 3,
   "name": "Reddit Pixel",
-  "provider": "",
+  "provider": "Reddit Netherlands B.V.",
   "category": "marketing",
   "purpose": "Measures Reddit ads.",
   "privacyUrl": "https://www.reddit.com/policies/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -40,7 +40,8 @@
     "https://www.redditinc.com/policies/privacy-policy",
     "https://www.dataprivacyframework.gov/participant/Reddit-Inc-5735",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.reddit.com/policies/privacy-policy"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

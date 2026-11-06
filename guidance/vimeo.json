@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "vimeo",
+  "version": 1,
+  "notes": [
+    {
+      "id": "disable-player-tracking",
+      "kind": "setup",
+      "text": "Enable Vimeo’s dnt player parameter to disable session tracking and analytics for that embed. The parameter is off by default.",
+      "sources": [
+        "https://help.vimeo.com/hc/en-us/articles/12426260232977-About-Player-Parameters"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "dnt-limits",
+      "kind": "caveat",
+      "text": "Vimeo’s dnt option still allows essential security cookies. Previously stored Vimeo cookies may still be sent with requests, so enabling the option does not make the player free of cookies or data exchange.",
+      "sources": [
+        "https://help.vimeo.com/hc/en-us/articles/26080940921361-Vimeo-Player-Cookies"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

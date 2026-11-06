@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "youtube",
+  "version": 1,
+  "notes": [
+    {
+      "id": "privacy-enhanced-embed",
+      "kind": "setup",
+      "text": "For privacy-enhanced embeds, change the player URL's domain from www.youtube.com to www.youtube-nocookie.com. YouTube says views in this mode do not personalize the viewer's YouTube experience or advertising outside your site; ads shown in the player are non-personalized.",
+      "sources": [
+        "https://support.google.com/youtube/answer/171780?hl=en"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "privacy-enhanced-limits",
+      "kind": "caveat",
+      "text": "Do not interpret the nocookie name as no data exchange or automatic legal compliance. YouTube documents basic data sharing when its embedded player loads and further sharing on playback. Its privacy-enhanced option limits personalization; the embedded player remains subject to YouTube's terms and developer policies.",
+      "sources": [
+        "https://support.google.com/youtube/answer/171780?hl=en",
+        "https://developers.google.com/youtube/terms/developer-policies"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

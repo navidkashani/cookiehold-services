@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "unpkg",
-  "version": 1,
+  "version": 2,
   "name": "UNPKG",
   "provider": "",
   "category": "essential",
   "purpose": "Delivers code libraries the site uses.",
   "privacyUrl": "",
-  "dataCountry": "",
+  "dataCountry": "Worldwide (Cloudflare network)",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -31,5 +31,5 @@
     "https://unpkg.com/network",
     "https://unpkg.com/status"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

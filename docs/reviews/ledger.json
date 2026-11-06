@@ -1,0 +1,1476 @@
+{
+  "started": "2026-11-06",
+  "scope": "All permanent service ids. Status records the outcome of a documented review, not a compatibility or legal certification.",
+  "services": {
+    "ab-tasty": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#ab-tasty",
+      "hasUnresolvedFindings": true
+    },
+    "accessibe": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#accessibe",
+      "hasUnresolvedFindings": true
+    },
+    "activecampaign": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-email-marketing.md#activecampaign",
+      "hasUnresolvedFindings": true
+    },
+    "acuity-scheduling": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#acuity-scheduling",
+      "hasUnresolvedFindings": true
+    },
+    "addtoany": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-widgets-experiments.md#addtoany",
+      "hasUnresolvedFindings": true
+    },
+    "adobe-analytics": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-analytics-regions.md#adobe-analytics",
+      "hasUnresolvedFindings": true
+    },
+    "adobe-fonts": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#adobe-fonts",
+      "hasUnresolvedFindings": false
+    },
+    "amazon-ads": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-advertising-tags.md#amazon-ads",
+      "hasUnresolvedFindings": true
+    },
+    "amplitude": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-analytics-regions.md#amplitude",
+      "hasUnresolvedFindings": true
+    },
+    "apple-music": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media.md#apple-music",
+      "hasUnresolvedFindings": true
+    },
+    "apple-podcasts": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media.md#apple-podcasts",
+      "hasUnresolvedFindings": true
+    },
+    "audioboom": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-media.md#audioboom",
+      "hasUnresolvedFindings": true
+    },
+    "awin": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#awin",
+      "hasUnresolvedFindings": true
+    },
+    "bookeo": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-scheduling.md#bookeo",
+      "hasUnresolvedFindings": true
+    },
+    "booking-com": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#booking-com",
+      "hasUnresolvedFindings": true
+    },
+    "bookingkit": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#bookingkit",
+      "hasUnresolvedFindings": true
+    },
+    "bootstrapcdn": {
+      "status": "verified-unchanged",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-security-infrastructure.md#bootstrapcdn",
+      "hasUnresolvedFindings": false
+    },
+    "brevo": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-email-marketing.md#brevo",
+      "hasUnresolvedFindings": true
+    },
+    "bunny-fonts": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#bunny-fonts",
+      "hasUnresolvedFindings": true
+    },
+    "bunny-stream": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#bunny-stream",
+      "hasUnresolvedFindings": true
+    },
+    "cal-com": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#cal-com",
+      "hasUnresolvedFindings": true
+    },
+    "calendly": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#calendly",
+      "hasUnresolvedFindings": true
+    },
+    "cdnjs": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#cdnjs",
+      "hasUnresolvedFindings": false
+    },
+    "chatbase": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-forms.md#chatbase",
+      "hasUnresolvedFindings": true
+    },
+    "cleantalk": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#cleantalk",
+      "hasUnresolvedFindings": true
+    },
+    "cleverreach": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-email-marketing.md#cleverreach",
+      "hasUnresolvedFindings": true
+    },
+    "cloudflare-turnstile": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-security-infrastructure.md#cloudflare-turnstile",
+      "hasUnresolvedFindings": true
+    },
+    "cloudflare-web-analytics": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics.md#cloudflare-web-analytics",
+      "hasUnresolvedFindings": true
+    },
+    "cloudpano": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#cloudpano",
+      "hasUnresolvedFindings": true
+    },
+    "contentsquare": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-recording.md#contentsquare",
+      "hasUnresolvedFindings": true
+    },
+    "convertbox": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-widgets-experiments.md#convertbox",
+      "hasUnresolvedFindings": true
+    },
+    "crazy-egg": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#crazy-egg",
+      "hasUnresolvedFindings": true
+    },
+    "crisp": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-chat.md#crisp",
+      "hasUnresolvedFindings": true
+    },
+    "criteo": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#criteo",
+      "hasUnresolvedFindings": true
+    },
+    "dailymotion": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-media.md#dailymotion",
+      "hasUnresolvedFindings": true
+    },
+    "discord-widget": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-social-embeds.md#discord-widget",
+      "hasUnresolvedFindings": true
+    },
+    "disqus": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#disqus",
+      "hasUnresolvedFindings": true
+    },
+    "elfsight": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-widgets-experiments.md#elfsight",
+      "hasUnresolvedFindings": true
+    },
+    "encharge": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-email-marketing.md#encharge",
+      "hasUnresolvedFindings": true
+    },
+    "etracker": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics.md#etracker",
+      "hasUnresolvedFindings": true
+    },
+    "eventfrog": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#eventfrog",
+      "hasUnresolvedFindings": true
+    },
+    "eversports": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#eversports",
+      "hasUnresolvedFindings": true
+    },
+    "facebook-embed": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-social-embeds.md#facebook-embed",
+      "hasUnresolvedFindings": true
+    },
+    "fathom": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics.md#fathom",
+      "hasUnresolvedFindings": true
+    },
+    "firstpromoter": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#firstpromoter",
+      "hasUnresolvedFindings": true
+    },
+    "flickr": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-social-embeds.md#flickr",
+      "hasUnresolvedFindings": true
+    },
+    "font-awesome": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#font-awesome",
+      "hasUnresolvedFindings": true
+    },
+    "found-ee": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#found-ee",
+      "hasUnresolvedFindings": true
+    },
+    "fraud-blocker": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#fraud-blocker",
+      "hasUnresolvedFindings": true
+    },
+    "freshchat": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-chat.md#freshchat",
+      "hasUnresolvedFindings": true
+    },
+    "fullstory": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#fullstory",
+      "hasUnresolvedFindings": true
+    },
+    "getresponse": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-email-marketing.md#getresponse",
+      "hasUnresolvedFindings": true
+    },
+    "getyourguide": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#getyourguide",
+      "hasUnresolvedFindings": true
+    },
+    "giphy": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-social-embeds.md#giphy",
+      "hasUnresolvedFindings": true
+    },
+    "gohighlevel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-email-marketing.md#gohighlevel",
+      "hasUnresolvedFindings": true
+    },
+    "google-ads": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 5,
+      "report": "2026-11-06-advertising-tags.md#google-ads",
+      "hasUnresolvedFindings": true
+    },
+    "google-adsense": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#google-adsense",
+      "hasUnresolvedFindings": true
+    },
+    "google-analytics": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-pilot.md#google-analytics",
+      "hasUnresolvedFindings": true
+    },
+    "google-calendar": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#google-calendar",
+      "hasUnresolvedFindings": true
+    },
+    "google-fonts": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#google-fonts",
+      "hasUnresolvedFindings": false
+    },
+    "google-hosted-libraries": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#google-hosted-libraries",
+      "hasUnresolvedFindings": true
+    },
+    "google-maps": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-fonts-maps-translation.md#google-maps",
+      "hasUnresolvedFindings": true
+    },
+    "google-recaptcha": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-security-infrastructure.md#google-recaptcha",
+      "hasUnresolvedFindings": true
+    },
+    "google-tag-manager": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-pilot.md#google-tag-manager",
+      "hasUnresolvedFindings": true
+    },
+    "google-translate": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#google-translate",
+      "hasUnresolvedFindings": true
+    },
+    "google-trends": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#google-trends",
+      "hasUnresolvedFindings": true
+    },
+    "gravatar": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-fonts-maps-translation.md#gravatar",
+      "hasUnresolvedFindings": true
+    },
+    "gtranslate": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-fonts-maps-translation.md#gtranslate",
+      "hasUnresolvedFindings": true
+    },
+    "hcaptcha": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-security-infrastructure.md#hcaptcha",
+      "hasUnresolvedFindings": true
+    },
+    "heap": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#heap",
+      "hasUnresolvedFindings": true
+    },
+    "help-scout": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-chat.md#help-scout",
+      "hasUnresolvedFindings": true
+    },
+    "helpcrunch": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-chat.md#helpcrunch",
+      "hasUnresolvedFindings": true
+    },
+    "heyflow": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#heyflow",
+      "hasUnresolvedFindings": true
+    },
+    "hotjar": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#hotjar",
+      "hasUnresolvedFindings": true
+    },
+    "hubspot-forms": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#hubspot-forms",
+      "hasUnresolvedFindings": true
+    },
+    "hubspot": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#hubspot",
+      "hasUnresolvedFindings": true
+    },
+    "imgur": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-social-embeds.md#imgur",
+      "hasUnresolvedFindings": true
+    },
+    "instagram-embed": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-social-embeds.md#instagram-embed",
+      "hasUnresolvedFindings": true
+    },
+    "instatus": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#instatus",
+      "hasUnresolvedFindings": true
+    },
+    "intercom": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-chat.md#intercom",
+      "hasUnresolvedFindings": true
+    },
+    "issuu": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-media-hosting.md#issuu",
+      "hasUnresolvedFindings": true
+    },
+    "jetpack-comments": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#jetpack-comments",
+      "hasUnresolvedFindings": true
+    },
+    "jetpack-stats": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-analytics-regions.md#jetpack-stats",
+      "hasUnresolvedFindings": true
+    },
+    "jotform": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#jotform",
+      "hasUnresolvedFindings": true
+    },
+    "jquery-cdn": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#jquery-cdn",
+      "hasUnresolvedFindings": false
+    },
+    "jsdelivr": {
+      "status": "verified-unchanged",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-security-infrastructure.md#jsdelivr",
+      "hasUnresolvedFindings": false
+    },
+    "kit": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-email-marketing.md#kit",
+      "hasUnresolvedFindings": true
+    },
+    "klarna": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-commerce.md#klarna",
+      "hasUnresolvedFindings": true
+    },
+    "klaviyo": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-email-marketing.md#klaviyo",
+      "hasUnresolvedFindings": true
+    },
+    "kliken": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#kliken",
+      "hasUnresolvedFindings": true
+    },
+    "klook": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#klook",
+      "hasUnresolvedFindings": true
+    },
+    "komoot": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#komoot",
+      "hasUnresolvedFindings": true
+    },
+    "kustom": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-commerce.md#kustom",
+      "hasUnresolvedFindings": true
+    },
+    "kuula": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#kuula",
+      "hasUnresolvedFindings": true
+    },
+    "leadfeeder": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#leadfeeder",
+      "hasUnresolvedFindings": true
+    },
+    "libsyn": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media.md#libsyn",
+      "hasUnresolvedFindings": true
+    },
+    "linkedin-embed": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-social-embeds.md#linkedin-embed",
+      "hasUnresolvedFindings": true
+    },
+    "linkedin-insight": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-advertising-tags.md#linkedin-insight",
+      "hasUnresolvedFindings": true
+    },
+    "livechat": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-chat.md#livechat",
+      "hasUnresolvedFindings": true
+    },
+    "loom": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-social-embeds.md#loom",
+      "hasUnresolvedFindings": true
+    },
+    "lucky-orange": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#lucky-orange",
+      "hasUnresolvedFindings": true
+    },
+    "mailchimp": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-email-marketing.md#mailchimp",
+      "hasUnresolvedFindings": true
+    },
+    "mailerlite": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-email-marketing.md#mailerlite",
+      "hasUnresolvedFindings": true
+    },
+    "mailjet": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-email-marketing.md#mailjet",
+      "hasUnresolvedFindings": true
+    },
+    "mapbox": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-fonts-maps-translation.md#mapbox",
+      "hasUnresolvedFindings": true
+    },
+    "matomo-cloud": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-analytics.md#matomo-cloud",
+      "hasUnresolvedFindings": true
+    },
+    "matomo-tag-manager": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics.md#matomo-tag-manager",
+      "hasUnresolvedFindings": true
+    },
+    "matomo": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics.md#matomo",
+      "hasUnresolvedFindings": true
+    },
+    "matterport": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#matterport",
+      "hasUnresolvedFindings": true
+    },
+    "meta-pixel": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#meta-pixel",
+      "hasUnresolvedFindings": true
+    },
+    "metricool": {
+      "status": "verified-unchanged",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics-regions.md#metricool",
+      "hasUnresolvedFindings": false
+    },
+    "microanalytics": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics.md#microanalytics",
+      "hasUnresolvedFindings": true
+    },
+    "microsoft-advertising": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#microsoft-advertising",
+      "hasUnresolvedFindings": true
+    },
+    "microsoft-bookings": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#microsoft-bookings",
+      "hasUnresolvedFindings": true
+    },
+    "microsoft-clarity": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#microsoft-clarity",
+      "hasUnresolvedFindings": true
+    },
+    "mixpanel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics-regions.md#mixpanel",
+      "hasUnresolvedFindings": true
+    },
+    "momoyoga": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#momoyoga",
+      "hasUnresolvedFindings": true
+    },
+    "mouseflow": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#mouseflow",
+      "hasUnresolvedFindings": true
+    },
+    "mux": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#mux",
+      "hasUnresolvedFindings": true
+    },
+    "myfonts": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-fonts-maps-translation.md#myfonts",
+      "hasUnresolvedFindings": true
+    },
+    "onesignal": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#onesignal",
+      "hasUnresolvedFindings": true
+    },
+    "openai-ads": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-advertising-tags.md#openai-ads",
+      "hasUnresolvedFindings": true
+    },
+    "openstreetmap": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-fonts-maps-translation.md#openstreetmap",
+      "hasUnresolvedFindings": true
+    },
+    "opentable": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#opentable",
+      "hasUnresolvedFindings": true
+    },
+    "optimizely": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-widgets-experiments.md#optimizely",
+      "hasUnresolvedFindings": true
+    },
+    "optinmonster": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-widgets-experiments.md#optinmonster",
+      "hasUnresolvedFindings": true
+    },
+    "outbrain": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#outbrain",
+      "hasUnresolvedFindings": true
+    },
+    "paddle-retain": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-commerce.md#paddle-retain",
+      "hasUnresolvedFindings": true
+    },
+    "paddle": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-commerce.md#paddle",
+      "hasUnresolvedFindings": true
+    },
+    "paypal-marketing": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-commerce.md#paypal-marketing",
+      "hasUnresolvedFindings": true
+    },
+    "paypal": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-commerce.md#paypal",
+      "hasUnresolvedFindings": true
+    },
+    "phorest": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#phorest",
+      "hasUnresolvedFindings": true
+    },
+    "pinterest-embed": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-social-embeds.md#pinterest-embed",
+      "hasUnresolvedFindings": true
+    },
+    "pinterest-tag": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#pinterest-tag",
+      "hasUnresolvedFindings": true
+    },
+    "pipedrive": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-email-marketing.md#pipedrive",
+      "hasUnresolvedFindings": true
+    },
+    "piwik-pro": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics.md#piwik-pro",
+      "hasUnresolvedFindings": true
+    },
+    "planity": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#planity",
+      "hasUnresolvedFindings": true
+    },
+    "plausible": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics.md#plausible",
+      "hasUnresolvedFindings": true
+    },
+    "podigee": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-media.md#podigee",
+      "hasUnresolvedFindings": true
+    },
+    "popup-maker": {
+      "status": "verified-unchanged",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-widgets-experiments.md#popup-maker",
+      "hasUnresolvedFindings": false
+    },
+    "posthog": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#posthog",
+      "hasUnresolvedFindings": true
+    },
+    "provenexpert": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#provenexpert",
+      "hasUnresolvedFindings": true
+    },
+    "quora-pixel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#quora-pixel",
+      "hasUnresolvedFindings": true
+    },
+    "reamaze": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-chat.md#reamaze",
+      "hasUnresolvedFindings": true
+    },
+    "reddit-embed": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-social-embeds.md#reddit-embed",
+      "hasUnresolvedFindings": true
+    },
+    "reddit-pixel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#reddit-pixel",
+      "hasUnresolvedFindings": true
+    },
+    "rybbit": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics.md#rybbit",
+      "hasUnresolvedFindings": true
+    },
+    "salesviewer": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#salesviewer",
+      "hasUnresolvedFindings": true
+    },
+    "segment": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-analytics-regions.md#segment",
+      "hasUnresolvedFindings": true
+    },
+    "senja": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#senja",
+      "hasUnresolvedFindings": true
+    },
+    "shopify-buy-button": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-commerce.md#shopify-buy-button",
+      "hasUnresolvedFindings": true
+    },
+    "shortpixel-cdn": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#shortpixel-cdn",
+      "hasUnresolvedFindings": true
+    },
+    "sketchfab": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#sketchfab",
+      "hasUnresolvedFindings": true
+    },
+    "smartlook": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-recording.md#smartlook",
+      "hasUnresolvedFindings": true
+    },
+    "smartsupp": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-chat.md#smartsupp",
+      "hasUnresolvedFindings": true
+    },
+    "snap-pixel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#snap-pixel",
+      "hasUnresolvedFindings": true
+    },
+    "soundcloud": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-media.md#soundcloud",
+      "hasUnresolvedFindings": true
+    },
+    "spotify": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-media.md#spotify",
+      "hasUnresolvedFindings": true
+    },
+    "stay22": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#stay22",
+      "hasUnresolvedFindings": true
+    },
+    "strava": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-social-embeds.md#strava",
+      "hasUnresolvedFindings": true
+    },
+    "stripe": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-pilot.md#stripe",
+      "hasUnresolvedFindings": true
+    },
+    "superchat": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-forms.md#superchat",
+      "hasUnresolvedFindings": true
+    },
+    "taboola": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-remaining-integrations.md#taboola",
+      "hasUnresolvedFindings": true
+    },
+    "tally": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#tally",
+      "hasUnresolvedFindings": true
+    },
+    "tawk-to": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-chat.md#tawk-to",
+      "hasUnresolvedFindings": true
+    },
+    "ted": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-social-embeds.md#ted",
+      "hasUnresolvedFindings": true
+    },
+    "the-trade-desk": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-advertising-tags.md#the-trade-desk",
+      "hasUnresolvedFindings": true
+    },
+    "tidio": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-chat.md#tidio",
+      "hasUnresolvedFindings": true
+    },
+    "tidycal": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#tidycal",
+      "hasUnresolvedFindings": true
+    },
+    "tiktok-embed": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-social-embeds.md#tiktok-embed",
+      "hasUnresolvedFindings": true
+    },
+    "tiktok-pixel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-advertising-tags.md#tiktok-pixel",
+      "hasUnresolvedFindings": true
+    },
+    "tradetracker": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#tradetracker",
+      "hasUnresolvedFindings": true
+    },
+    "trusted-shops": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#trusted-shops",
+      "hasUnresolvedFindings": true
+    },
+    "trustindex": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#trustindex",
+      "hasUnresolvedFindings": true
+    },
+    "trustpilot-invitations": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#trustpilot-invitations",
+      "hasUnresolvedFindings": true
+    },
+    "trustpilot": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#trustpilot",
+      "hasUnresolvedFindings": true
+    },
+    "typeform": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-forms.md#typeform",
+      "hasUnresolvedFindings": true
+    },
+    "unpkg": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#unpkg",
+      "hasUnresolvedFindings": true
+    },
+    "unsplash": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-media-hosting.md#unsplash",
+      "hasUnresolvedFindings": true
+    },
+    "userlike": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-chat.md#userlike",
+      "hasUnresolvedFindings": true
+    },
+    "usermaven": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics-regions.md#usermaven",
+      "hasUnresolvedFindings": true
+    },
+    "userway": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-widgets-experiments.md#userway",
+      "hasUnresolvedFindings": true
+    },
+    "vega": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#vega",
+      "hasUnresolvedFindings": true
+    },
+    "vg-wort": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-analytics-regions.md#vg-wort",
+      "hasUnresolvedFindings": true
+    },
+    "vimeo": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-media.md#vimeo",
+      "hasUnresolvedFindings": true
+    },
+    "visitortracking": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#visitortracking",
+      "hasUnresolvedFindings": true
+    },
+    "vwo": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-widgets-experiments.md#vwo",
+      "hasUnresolvedFindings": true
+    },
+    "wikimedia-commons": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#wikimedia-commons",
+      "hasUnresolvedFindings": true
+    },
+    "wistia": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-media.md#wistia",
+      "hasUnresolvedFindings": true
+    },
+    "wix-media": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#wix-media",
+      "hasUnresolvedFindings": true
+    },
+    "wlw": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-remaining-integrations.md#wlw",
+      "hasUnresolvedFindings": true
+    },
+    "woocommerce-attribution": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-commerce.md#woocommerce-attribution",
+      "hasUnresolvedFindings": true
+    },
+    "wordfence": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#wordfence",
+      "hasUnresolvedFindings": true
+    },
+    "wordpress-com-cdn": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#wordpress-com-cdn",
+      "hasUnresolvedFindings": true
+    },
+    "wordpress-org": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-security-infrastructure.md#wordpress-org",
+      "hasUnresolvedFindings": true
+    },
+    "wpmudev-cdn": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-security-infrastructure.md#wpmudev-cdn",
+      "hasUnresolvedFindings": false
+    },
+    "x-embed": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-social-embeds.md#x-embed",
+      "hasUnresolvedFindings": true
+    },
+    "x-pixel": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-advertising-tags.md#x-pixel",
+      "hasUnresolvedFindings": true
+    },
+    "xing": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-remaining-integrations.md#xing",
+      "hasUnresolvedFindings": true
+    },
+    "yandex-metrica": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-analytics-regions.md#yandex-metrica",
+      "hasUnresolvedFindings": true
+    },
+    "youcanbookme": {
+      "status": "unresolved",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 1,
+      "report": "2026-11-06-scheduling.md#youcanbookme",
+      "hasUnresolvedFindings": true
+    },
+    "youtube": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 4,
+      "report": "2026-11-06-pilot.md#youtube",
+      "hasUnresolvedFindings": true
+    },
+    "yumpu": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-media-hosting.md#yumpu",
+      "hasUnresolvedFindings": true
+    },
+    "zendesk-chat": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 3,
+      "report": "2026-11-06-chat.md#zendesk-chat",
+      "hasUnresolvedFindings": true
+    },
+    "zoho-bookings": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#zoho-bookings",
+      "hasUnresolvedFindings": true
+    },
+    "zoho-campaigns": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#zoho-campaigns",
+      "hasUnresolvedFindings": true
+    },
+    "zoho-forms": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#zoho-forms",
+      "hasUnresolvedFindings": true
+    },
+    "zoho-marketing-automation": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-scheduling.md#zoho-marketing-automation",
+      "hasUnresolvedFindings": true
+    },
+    "zoho-pagesense": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-analytics-regions.md#zoho-pagesense",
+      "hasUnresolvedFindings": true
+    },
+    "zoho-salesiq": {
+      "status": "corrected",
+      "reviewed": "2026-11-06",
+      "serviceVersion": 2,
+      "report": "2026-11-06-forms.md#zoho-salesiq",
+      "hasUnresolvedFindings": true
+    }
+  }
+}

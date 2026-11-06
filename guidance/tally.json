@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "tally",
+  "version": 1,
+  "notes": [
+    {
+      "id": "notification-answer-content",
+      "kind": "setup",
+      "text": "Review Email notifications in your form settings before enabling Self email notifications: their default body includes all non-empty answers. Tally offers paid customization of the body and individual fields. Check the recipients and any PDF attachment setting so that notification emails contain only the response details you intend to share.",
+      "sources": [
+        "https://tally.so/help/self-email-notifications"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

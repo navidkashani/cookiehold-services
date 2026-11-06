@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "userlike",
-  "version": 1,
+  "version": 2,
   "name": "Lime Connect (Userlike)",
   "provider": "Lime Connect (Userlike) GmbH",
   "category": "functional",
   "purpose": "Live chat.",
   "privacyUrl": "https://connect.lime-technologies.com/en/legal/privacy-policy/",
-  "dataCountry": "EU (Germany)",
+  "dataCountry": "EU (Germany) for chat data; worldwide CDN delivery",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -50,5 +50,5 @@
     "https://wordpress.org/plugins/userlike/",
     "https://plugins.svn.wordpress.org/userlike/trunk/userlike.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

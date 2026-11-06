@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "posthog",
-  "version": 2,
+  "version": 3,
   "name": "PostHog",
   "provider": "PostHog Inc.",
   "category": "statistics",
@@ -24,7 +24,9 @@
       "purpose": "Tells visitors apart."
     }
   ],
-  "storage": [],
+  "storage": [
+    "ph_phc_*"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -39,7 +41,9 @@
     "https://posthog.com/docs/privacy/gdpr-compliance",
     "https://posthog.com/docs/libraries/js/persistence",
     "https://posthog.com/docs/libraries/js",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/PostHog/posthog-js/main/packages/browser/src/posthog-persistence.ts",
+    "https://posthog.com/docs/privacy/data-storage"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "youcanbookme",
+  "version": 1,
+  "notes": [
+    {
+      "id": "embedded-tracking-integrations",
+      "kind": "setup",
+      "text": "Review tracking integrations on the booking page before embedding it. YouCanBookMe says its standard embed omits its cookie banner, but adding tracking integrations such as Google Analytics makes the banner appear. To remove that tracking-related banner, disable those integrations on the embedded booking page. The absence of a banner does not mean the booking service uses no cookies.",
+      "sources": [
+        "https://support.youcanbook.me/hc/en-us/articles/17297710335767-Embed-Your-Booking-Page-in-a-Website"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "klaviyo",
-  "version": 2,
+  "version": 3,
   "name": "Klaviyo",
   "provider": "Klaviyo, Inc.",
   "category": "marketing",
   "purpose": "Tracks visits for email marketing.",
   "privacyUrl": "https://privacy.klaviyo.com/policies/?name=klaviyo-privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA; other countries for support and optional features",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -42,7 +42,9 @@
     "https://www.klaviyo.com/gdpr",
     "https://help.klaviyo.com/hc/en-us/articles/360034666712",
     "https://wordpress.org/plugins/klaviyo/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.klaviyo.com/legal/privacy-faqs",
+    "https://trust.klaviyo.com/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

@@ -16,7 +16,7 @@ site owners, so every change is checked before it is merged.
 4. **Ids are permanent.** Never rename or delete a file in `services/`. For a
    renamed service, add a new file and set `replacedBy` in the old one. For a
    service that's gone, set `"retired": true`.
-5. **Every change raises `version` by one** and sets `checked` to the day you
+5. **Every service change raises `version` by one** and sets `checked` to the day you
    checked it.
 6. **Plain words.** A `purpose` is one short sentence a visitor understands,
    ending with a full stop, of 50 characters at most (70 in a translation),
@@ -80,6 +80,15 @@ terminology and its polite form where it has one (German "Sie").
 Never translate a service's name, a cookie name or a web address. If you speak
 the language and an entry reads well, remove its `"machine": true`; if it
 doesn't, fix it and remove the flag.
+
+## Service guidance
+
+Optional guidance lives in `guidance/`, separate from plugin data. Follow
+[the guidance workflow](docs/guidance.md) to add or verify setup notes and
+caveats. Each note needs official sources and its own verification date;
+each guidance file has its own revision. Do not generate translations or copy
+existing service facts into notes. Record conflicting facts separately with
+evidence before proposing runtime corrections.
 
 ## Releases
 

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-recaptcha",
-  "version": 3,
+  "version": 4,
   "name": "Google reCAPTCHA",
-  "provider": "Google Ireland Limited",
+  "provider": "Google Cloud EMEA Limited or regional Google Cloud entity (depends on customer country)",
   "category": "functional",
   "purpose": "Keeps spam out of forms.",
-  "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "privacyUrl": "https://cloud.google.com/terms/data-processing-addendum",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -63,7 +63,11 @@
     "https://plugins.svn.wordpress.org/advanced-nocaptcha-recaptcha/trunk/",
     "https://plugins.svn.wordpress.org/invisible-recaptcha/trunk/",
     "https://plugins.svn.wordpress.org/login-recaptcha/trunk/",
-    "https://plugins.svn.wordpress.org/recaptcha-woo/trunk/"
+    "https://plugins.svn.wordpress.org/recaptcha-woo/trunk/",
+    "https://docs.cloud.google.com/recaptcha/docs/faq",
+    "https://cloud.google.com/terms/data-processing-addendum",
+    "https://cloud.google.com/terms/google-entity",
+    "https://cloud.google.com/terms/service-terms"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

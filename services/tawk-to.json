@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "tawk-to",
-  "version": 2,
+  "version": 3,
   "name": "tawk.to",
   "provider": "tawk.to, Inc.",
   "category": "functional",
   "purpose": "Live chat.",
   "privacyUrl": "https://www.tawk.to/privacy-policy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries, including Ireland and the Netherlands",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -54,7 +54,8 @@
     "https://help.tawk.to/article/what-are-tawkto-cookies-and-what-do-they-do",
     "https://help.tawk.to/article/enabling-and-managing-your-consent-form",
     "https://wordpress.org/plugins/tawkto-live-chat/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.tawk.to/data-protection/sub-processors/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

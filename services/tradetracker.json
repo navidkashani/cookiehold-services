@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "tradetracker",
-  "version": 1,
+  "version": 2,
   "name": "TradeTracker",
   "provider": "TradeTracker International B.V.",
   "category": "marketing",
   "purpose": "Tracks sales from affiliate links.",
   "privacyUrl": "https://tradetracker.com/privacy-policy/",
-  "dataCountry": "EU (Ireland)",
+  "dataCountry": "EU (Ireland servers); partners may transfer data outside the EU",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -71,5 +71,5 @@
     "https://plugins.svn.wordpress.org/tradetracker-connect/trunk/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

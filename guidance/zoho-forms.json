@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "zoho-forms",
+  "version": 1,
+  "notes": [
+    {
+      "id": "referrer-tracking-choice",
+      "kind": "setup",
+      "text": "When copying an iframe embed, choose between Basic iframe and Advanced iframe with Referrer Tracking. The advanced option captures the complete source-page URL, including its path and query parameters; the basic option records the base URL. Use the basic option when you do not need detailed referral data, and avoid putting sensitive information in page URLs.",
+      "sources": [
+        "https://help.zoho.com/portal/en/kb/forms/embedding-forms/embedding-forms-in-webpages/articles/embed-using-iframe"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "userway",
-  "version": 1,
+  "version": 2,
   "name": "UserWay",
   "provider": "UserWay Inc.",
   "category": "functional",
   "purpose": "Adds an accessibility menu to the site.",
   "privacyUrl": "https://userway.org/privacy/",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -51,5 +51,5 @@
     "https://plugins.svn.wordpress.org/userway-accessibility-widget/trunk/userway.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

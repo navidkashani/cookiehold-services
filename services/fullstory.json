@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "fullstory",
-  "version": 2,
+  "version": 3,
   "name": "FullStory",
   "provider": "FullStory, Inc.",
   "category": "statistics",
   "purpose": "Session recordings and usage analytics.",
   "privacyUrl": "https://www.fullstory.com/legal/privacy-policy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA or EU (account region); international transfers",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -18,8 +18,21 @@
       "_fs_namespace"
     ]
   },
-  "cookies": [],
-  "storage": [],
+  "cookies": [
+    {
+      "name": "fs_uid",
+      "lifetime": "1 year",
+      "purpose": "Tells visitors apart."
+    },
+    {
+      "name": "fs_lua",
+      "lifetime": "30 minutes",
+      "purpose": "Stores the last activity time."
+    }
+  ],
+  "storage": [
+    "_fs_tab_id"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -34,7 +47,9 @@
     "https://help.fullstory.com/hc/en-us/articles/360020623514-Installing-the-Fullstory-Script",
     "https://help.fullstory.com/hc/en-us/articles/360020828113-Identifying-users",
     "https://dataprivacyframework.gov/list",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://help.fullstory.com/hc/en-us/articles/360020829513-Why-Fullstory-uses-First-Party-Cookies",
+    "https://help.fullstory.com/hc/en-us/articles/8901113940375-Fullstory-Data-Residency"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

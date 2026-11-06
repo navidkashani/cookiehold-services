@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "cal-com",
-  "version": 1,
+  "version": 2,
   "name": "Cal.com",
   "provider": "Cal.com, Inc.",
   "category": "functional",
   "purpose": "Shows an embedded booking calendar.",
   "privacyUrl": "https://cal.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA or EU by account; other countries depending on features",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -48,7 +48,9 @@
     "https://www.cal.eu/",
     "https://www.dataprivacyframework.gov/list",
     "https://wordpress.org/plugins/cal-com/",
-    "https://plugins.svn.wordpress.org/cal-com/trunk/"
+    "https://plugins.svn.wordpress.org/cal-com/trunk/",
+    "https://cal.com/europe",
+    "https://plugins.svn.wordpress.org/cal-com/trunk/cal.com.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

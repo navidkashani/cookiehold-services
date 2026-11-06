@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "cleantalk",
+  "version": 1,
+  "notes": [
+    {
+      "id": "cookie-setting-storage",
+      "kind": "caveat",
+      "text": "The WordPress plugin’s Set cookies option changes where anti-spam data is kept. Off still uses browser local storage. The separate alternative mechanism uses the site database through AJAX or the WordPress REST API. Auto switches between On and Off according to detected caching. Check the selected mode before describing the integration as storing nothing in the browser.",
+      "sources": [
+        "https://cleantalk.org/help/set-cookies-option"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

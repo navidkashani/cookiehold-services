@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "pinterest-embed",
-  "version": 2,
+  "version": 3,
   "name": "Pinterest embeds",
-  "provider": "Pinterest Europe Limited",
+  "provider": "Pinterest Europe Limited and Pinterest, Inc.",
   "category": "media",
   "purpose": "Shows embedded Pins and the Save button.",
   "privacyUrl": "https://policy.pinterest.com/en/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -44,5 +44,5 @@
     "https://help.pinterest.com/en/business/article/pinterest-tag-parameters-and-cookies",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-11-01"
+  "checked": "2026-11-06"
 }

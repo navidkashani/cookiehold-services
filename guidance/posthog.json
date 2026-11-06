@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "posthog",
+  "version": 1,
+  "notes": [
+    {
+      "id": "consent-across-subdomains",
+      "kind": "setup",
+      "text": "PostHog stores analytics state and consent decisions separately. Sharing an analytics cookie across subdomains does not share the consent choice by default. If your setup needs one choice across subdomains, configure PostHog’s consent storage on each subdomain and test the choice separately from visitor identification.",
+      "sources": [
+        "https://posthog.com/docs/libraries/js/persistence"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

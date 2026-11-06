@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "segment",
+  "version": 1,
+  "notes": [
+    {
+      "id": "destination-settings",
+      "kind": "caveat",
+      "text": "Review each enabled Segment destination separately. Device-mode destinations load their own SDKs, whose cookie behavior Segment does not control. An EU Segment workspace also does not guarantee that every connected destination processes data in the EU.",
+      "sources": [
+        "https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/website/javascript/cookie-validity-update",
+        "https://www.twilio.com/docs/segment/guides/regional-segment/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

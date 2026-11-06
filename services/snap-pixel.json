@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "snap-pixel",
-  "version": 2,
+  "version": 3,
   "name": "Snap Pixel",
   "provider": "Snap Inc.",
   "category": "marketing",
   "purpose": "Measures Snapchat ads.",
   "privacyUrl": "https://values.snap.com/privacy/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -22,16 +22,22 @@
   "cookies": [
     {
       "name": "_scid",
-      "lifetime": "1 year",
+      "lifetime": "Up to 13 months",
       "purpose": "Tells visitors apart."
     },
     {
       "name": "_scid_r",
-      "lifetime": "13 months",
+      "lifetime": "Up to 13 months",
       "purpose": "Ad measurement."
     }
   ],
-  "storage": [],
+  "storage": [
+    "u_sclid",
+    "u_sclid_r",
+    "u_scsid",
+    "_scsrid",
+    "_scsrid_r"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -47,7 +53,8 @@
     "https://www.snap.com/cookie-policy",
     "https://developers.snap.com/api/marketing-api/Conversions-API/UsingTheAPI",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://sc-static.net/scevent.min.js"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

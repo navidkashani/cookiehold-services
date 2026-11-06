@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "phorest",
+  "version": 1,
+  "notes": [
+    {
+      "id": "mobile-booking-destination",
+      "kind": "caveat",
+      "text": "Test the booking journey on both desktop and mobile. Phorest’s floating booking widget opens the booking page in a new tab on mobile, and its automatic opening option also leads to a separate tab or window there. Phorest also supports a direct booking link behind your own button if you do not need the floating widget.",
+      "sources": [
+        "https://support.phorest.com/hc/en-us/articles/360016246960-How-do-I-set-up-Online-Booking-on-my-website"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

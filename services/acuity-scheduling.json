@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "acuity-scheduling",
-  "version": 1,
+  "version": 2,
   "name": "Acuity Scheduling",
   "provider": "Squarespace Ireland Limited",
   "category": "functional",
   "purpose": "Shows an embedded booking calendar.",
   "privacyUrl": "https://www.squarespace.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries; worldwide CDN delivery",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -58,5 +58,5 @@
     "https://www.squarespace.com/privacy",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

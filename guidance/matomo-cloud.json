@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "matomo-cloud",
+  "version": 1,
+  "notes": [
+    {
+      "id": "optional-ai-processing",
+      "kind": "caveat",
+      "text": "Review the optional Ask Matomo setting before using it with sensitive reports. When enabled and used, it sends prompts and relevant Matomo data to Amazon Bedrock. Matomo says the current model uses global cross-region inference; turning on the feature can therefore change the processing scope of an otherwise EU-hosted instance.",
+      "sources": [
+        "https://matomo.org/matomo-cloud-dpa/subprocessors/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "strava",
+  "version": 1,
+  "notes": [
+    {
+      "id": "embed-visibility",
+      "kind": "caveat",
+      "text": "Review Strava's sharing settings for the type of embed you use. An individual activity needs both the profile and activity set to Everyone, and an embedded route must be public. Strava says an embedded profile feed can include activities set to Followers as well as Everyone, while a club feed only includes Everyone activities. Check the embedded feed before publishing it.",
+      "sources": [
+        "https://support.strava.com/en-us/articles/15402053-sharing-your-activities-and-routes-with-a-strava-embed"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "legacy-activity-embeds",
+      "kind": "setup",
+      "text": "If an older Strava activity embed stops displaying, obtain a fresh embed code from that activity's share menu. Strava says the older activity embed format is no longer supported. Replace each affected embed rather than assuming the activity was deleted or changing its privacy settings to fix a format problem.",
+      "sources": [
+        "https://support.strava.com/en-us/articles/15402053-sharing-your-activities-and-routes-with-a-strava-embed"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

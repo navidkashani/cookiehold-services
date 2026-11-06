@@ -4,7 +4,7 @@
 //
 //     npm run build
 //
-// dist/index.json is what sites download first. It names every other file
+// dist/index.json is what plugin clients download first. It names runtime files
 // with its size and sha256, so a site fetches only the files that changed and
 // throws away a download that does not match. Files are fetched from the
 // exact version's folder, which jsDelivr never changes once served:
@@ -19,6 +19,7 @@ import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync
 import { dirname, resolve } from 'node:path';
 
 import { checkLogo } from './lib/rules.mjs';
+import { checkGuidance, parseGuidance } from './lib/guidance.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const DIST = resolve(ROOT, 'dist');
@@ -27,6 +28,8 @@ const DIST = resolve(ROOT, 'dist');
 // new format is served under a new major version (@2), and @1 keeps getting
 // releases for a year.
 export const FORMAT = 1;
+// Independent of the plugin catalog format. Guidance is an opt-in website input.
+export const GUIDANCE_FORMAT = 1;
 
 const json = (path) => JSON.parse(readFileSync(resolve(ROOT, path), 'utf8'));
 const list = (dir) => readdirSync(resolve(ROOT, dir)).filter((f) => f.endsWith('.json')).sort();
@@ -71,6 +74,22 @@ export function build() {
     index.push({ path, size: Buffer.byteLength(text), sha256: createHash('sha256').update(text).digest('hex') });
   }
   out['index.json'] = `${JSON.stringify({ format: FORMAT, version, date, services: services.length, files: index }, null, 2)}\n`;
+
+  // Deliberately added AFTER the runtime index. Existing clients may download
+  // everything it lists; guidance must never become an automatic download.
+  const guidanceFiles = new Map(list('guidance').map((file) => {
+    const text = readFileSync(resolve(ROOT, 'guidance', file), 'utf8');
+    return [file.replace(/\.json$/, ''), { text, data: parseGuidance(text) }];
+  }));
+  const problems = checkGuidance(guidanceFiles, new Map(services.map((s) => [s.id, s])));
+  if (problems.length) throw new Error(problems.join('\n'));
+  const guidance = Object.fromEntries([...guidanceFiles].map(([id, { data: { version, notes } }]) => [id, { version, notes }]));
+  const text = JSON.stringify({ format: GUIDANCE_FORMAT, version, date, locale: 'en', services: guidance });
+  out['guidance/en.json'] = text;
+  out['guidance/index.json'] = `${JSON.stringify({
+    format: GUIDANCE_FORMAT, version, date,
+    files: [{ path: 'en.json', size: Buffer.byteLength(text), sha256: createHash('sha256').update(text).digest('hex') }],
+  }, null, 2)}\n`;
 
   return out;
 }

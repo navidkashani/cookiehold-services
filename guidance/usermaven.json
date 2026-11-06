@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "usermaven",
+  "version": 1,
+  "notes": [
+    {
+      "id": "cookieless-identification",
+      "kind": "caveat",
+      "text": "Usermaven’s strict mode still collects visit data and uses the IP address and user agent to distinguish visitors. Its identity API can link that activity to a known user. Review identification calls as well as the tracking mode before describing your setup as anonymous.",
+      "sources": [
+        "https://usermaven.com/docs/articles/cookieless-tracking-9b9159be",
+        "https://usermaven.com/docs/articles/identity-resolution-b95b51ff"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

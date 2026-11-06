@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "zoho-campaigns",
+  "version": 1,
+  "notes": [
+    {
+      "id": "no-javascript-form-tradeoffs",
+      "kind": "caveat",
+      "text": "Zoho Campaigns offers a No JavaScript signup-form option. It omits CAPTCHA, tracking code, multiple-list subscription and the date field. Review those tradeoffs before choosing it, especially your spam-protection needs. The form still sends signup details to Zoho; removing the script does not mean that no data is exchanged.",
+      "sources": [
+        "https://help.zoho.com/portal/en/kb/campaigns/user-guide/signup-forms/creating-a-signup-form/articles/how-to-publish-signup-form"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

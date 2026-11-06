@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "tiktok-embed",
+  "version": 1,
+  "notes": [
+    {
+      "id": "player-version-and-related-content",
+      "kind": "setup",
+      "text": "For a new integration, use TikTok's current Embed Player instructions. TikTok is retiring the older Embed Videos integration and says existing integrations will migrate automatically. In the new player, setting rel to 0 switches related videos to the current author's videos; it does not remove related videos altogether.",
+      "sources": [
+        "https://developers.tiktok.com/docs/en/embed-videos",
+        "https://developers.tiktok.com/docs/en/embed-player"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

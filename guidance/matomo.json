@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "matomo",
+  "version": 1,
+  "notes": [
+    {
+      "id": "tracking-versus-cookie-consent",
+      "kind": "setup",
+      "text": "Choose Matomo’s consent API to match the behavior you intend. Calling requireConsent before tracking prevents tracking requests until consent is given. Calling requireCookieConsent still allows tracking requests while withholding cookies. These are different vendor settings, not interchangeable ways to stop analytics.",
+      "sources": [
+        "https://developer.matomo.org/guides/tracking-consent"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

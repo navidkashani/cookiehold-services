@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "zendesk-chat",
-  "version": 2,
+  "version": 3,
   "name": "Zendesk Chat",
   "provider": "Zendesk, Inc.",
   "category": "functional",
   "purpose": "Live chat and support messages.",
   "privacyUrl": "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA, EEA, UK, Japan or Australia by account; feature-specific exceptions",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -53,7 +53,8 @@
   "sources": [
     "https://www.zendesk.com/company/agreements-and-terms/privacy-notice/",
     "https://support.zendesk.com/hc/en-us/articles/4408824378650-Zendesk-In-Product-Cookie-Policy",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://support.zendesk.com/hc/en-us/articles/4408883599130-Regional-Data-Hosting-Policy"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

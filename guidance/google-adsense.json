@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "google-adsense",
+  "version": 1,
+  "notes": [
+    {
+      "id": "ad-serving-storage",
+      "kind": "caveat",
+      "text": "Non-personalized AdSense ads still use cookies for frequency capping and reporting. Limited ads are a separate setting: programmatic limited ads can use cookies and local storage for invalid-traffic detection. Google currently enables limited ads by default; review Brand Safety, Blocking controls, Ad serving if you want to turn them off. These settings do not mean that ad delivery stops exchanging data.",
+      "sources": [
+        "https://support.google.com/adsense/answer/9007336?hl=en",
+        "https://support.google.com/adsense/answer/14210870?hl=en"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

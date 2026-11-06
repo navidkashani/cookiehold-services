@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "klaviyo",
+  "version": 1,
+  "notes": [
+    {
+      "id": "reidentification-options",
+      "kind": "caveat",
+      "text": "Review Extended ID and First-party ID before enabling them. They can recognize an existing profile again after the ordinary browser identifier expires, using other available identifiers or a server-set identifier. Also check cookie controls separately from email preference pages: those pages control message subscriptions, not website tracking.",
+      "sources": [
+        "https://help.klaviyo.com/hc/en-us/articles/360034666712"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

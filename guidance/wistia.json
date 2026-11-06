@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "wistia",
+  "version": 1,
+  "notes": [
+    {
+      "id": "privacy-mode",
+      "kind": "setup",
+      "text": "Review Wistia’s account-wide Privacy Mode before embedding videos. It disables session and cookie tracking and anonymizes IP addresses while retaining aggregate viewing data, so individual viewer histories and attribution will be reduced.",
+      "sources": [
+        "https://docs.wistia.com/docs/player-privacy-mode"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "privacy-mode-limits",
+      "kind": "caveat",
+      "text": "Wistia’s Privacy Mode is not a promise of no browser storage: non-tracking cookies and local storage can remain. Live events using a Wistia registration form can still collect identifiable event data while Privacy Mode is enabled.",
+      "sources": [
+        "https://docs.wistia.com/docs/player-privacy-mode"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

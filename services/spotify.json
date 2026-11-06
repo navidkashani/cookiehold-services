@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "spotify",
-  "version": 2,
+  "version": 3,
   "name": "Spotify",
   "provider": "Spotify AB",
   "category": "media",
   "purpose": "Plays embedded music and podcasts.",
   "privacyUrl": "https://www.spotify.com/legal/privacy-policy/",
-  "dataCountry": "",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -41,7 +41,9 @@
     "https://www.spotify.com/legal/privacy-policy/",
     "https://www.spotify.com/us/legal/cookies-policy/",
     "https://developer.spotify.com/documentation/embeds/tutorials/using-the-iframe-api",
-    "https://github.com/jkwakman/Open-Cookie-Database"
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://www.spotify.com/uk/legal/privacy-policy/",
+    "https://developer.spotify.com/documentation/embeds/tutorials/troubleshooting"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

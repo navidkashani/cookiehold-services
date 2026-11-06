@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "kuula",
-  "version": 1,
+  "version": 2,
   "name": "Kuula",
   "provider": "Kuula Inc.",
   "category": "media",
   "purpose": "Shows embedded 360° virtual tours.",
   "privacyUrl": "https://kuula.co/legal/privacy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -44,5 +44,5 @@
     "https://blog.kuula.co/add-virtual-tour-wordpress",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

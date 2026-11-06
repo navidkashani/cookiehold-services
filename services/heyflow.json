@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "heyflow",
-  "version": 1,
+  "version": 2,
   "name": "Heyflow",
   "provider": "Heyflow GmbH",
   "category": "functional",
@@ -34,7 +34,6 @@
   "sources": [
     "https://help.heyflow.com/en/articles/12050858-embedding-inline-or-popup-intro",
     "https://help.heyflow.com/en/articles/12050538-embed-your-funnel-in-wordpress",
-    "https://help.heyflow.com/en/articles/8489698-cookie-consent-heyflow",
     "https://help.heyflow.com/en/articles/11064597-domain-connection-intro",
     "https://assets.prd.heyflow.com/builder/widget/latest/webview.js",
     "https://static.heyflow.app/widget/1-6-2/widget.min.js",
@@ -42,7 +41,11 @@
     "https://heyflow.com/legal/data-privacy/",
     "https://heyflow.com/legal/data-processing-agreement/",
     "https://res.cloudinary.com/dgaicn4mz/image/upload/v1753270630/EN_Data_Processing_Addendum_2025vf_kl6jia.pdf",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://help.heyflow.com/en/articles/12182411-cookie-consent-heyflow",
+    "https://help.heyflow.com/en/articles/12182457-cookie-consent-intro",
+    "https://help.heyflow.com/en/articles/8608215-faq-data-privacy",
+    "https://heyflow.com/legal/terms-and-conditions/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,12 +1,12 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "kustom",
-  "version": 1,
+  "version": 2,
   "name": "Kustom Checkout",
   "provider": "Kustom AB",
   "category": "essential",
   "purpose": "Runs the checkout and processes payments.",
-  "privacyUrl": "https://cdn.kustom.co/679b363bfe3c2f0a4c7c184f/679b9498863a71cbb0b78060_kustom_privacy_notice_sv_se.pdf",
+  "privacyUrl": "https://cdn.kustom.co/terms/02/kustom-checkout-privacy-notice.pdf",
   "dataCountry": "EEA, USA and UK",
   "legalBasis": "contract",
   "match": {
@@ -21,7 +21,13 @@
       "window.kustomElements._internal"
     ]
   },
-  "cookies": [],
+  "cookies": [
+    {
+      "name": "kdid",
+      "lifetime": "730 days from last purchase",
+      "purpose": "Remembers autofill details and preferences."
+    }
+  ],
   "storage": [
     "_kustom_*",
     "_klarna_sdid_ch"
@@ -42,7 +48,7 @@
     "https://docs.kustom.co/checkout/client-side-events.md",
     "https://docs.kustom.co/checkout/surfaces/elements.md",
     "https://docs.kustom.co/llms.txt",
-    "https://cdn.kustom.co/679b363bfe3c2f0a4c7c184f/679b9498863a71cbb0b78060_kustom_privacy_notice_sv_se.pdf",
+    "https://cdn.kustom.co/terms/02/kustom-checkout-privacy-notice.pdf",
     "https://www.kustom.co/legal",
     "https://www.kustom.co/legal/privacy-policy",
     "https://demo.kustom.co/",
@@ -51,5 +57,5 @@
     "https://wordpress.org/plugins/klarna-checkout-for-woocommerce/",
     "https://plugins.svn.wordpress.org/klarna-checkout-for-woocommerce/trunk/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

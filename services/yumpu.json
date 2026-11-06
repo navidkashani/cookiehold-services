@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "yumpu",
-  "version": 1,
+  "version": 2,
   "name": "Yumpu",
   "provider": "i-Magazine AG",
   "category": "media",
   "purpose": "Shows embedded magazines and flipbooks.",
   "privacyUrl": "https://www.yumpu.com/en/info/privacy_policy",
-  "dataCountry": "EU (Ireland)",
+  "dataCountry": "EU (Ireland) and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -50,5 +50,5 @@
     "https://plugins.svn.wordpress.org/yumpu-epaper-publishing/trunk/lib/Shortcode.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "cloudflare-turnstile",
+  "version": 1,
+  "notes": [
+    {
+      "id": "server-verification",
+      "kind": "setup",
+      "text": "Check that the form integration validates each Turnstile token on the server with Siteverify before accepting a submission. Displaying the widget alone does not protect the form. Tokens expire after five minutes and can be used only once, so forms left open or submitted again need a fresh token.",
+      "sources": [
+        "https://developers.cloudflare.com/turnstile/get-started/server-side-validation/"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "optional-pre-clearance",
+      "kind": "caveat",
+      "text": "Pre-clearance is an optional feature for Cloudflare-protected domains. It issues a clearance cookie and requires the correct registered zone, widget hostnames and security challenges. Check whether you enabled this option before describing a Turnstile setup as cookie-free.",
+      "sources": [
+        "https://developers.cloudflare.com/turnstile/additional-configuration/hostname-management/pre-clearance/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

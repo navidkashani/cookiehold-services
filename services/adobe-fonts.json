@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "adobe-fonts",
-  "version": 1,
+  "version": 2,
   "name": "Adobe Fonts",
   "provider": "Adobe Systems Software Ireland Limited",
   "category": "functional",
   "purpose": "Loads the site's fonts from Adobe.",
-  "privacyUrl": "https://www.adobe.com/privacy/policy.html",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "privacyUrl": "https://www.adobe.com/privacy/policies/adobe-fonts.html",
+  "dataCountry": "Worldwide CDN; USA, India and other countries for processing",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -43,7 +43,8 @@
     "https://wordpress.org/plugins/custom-typekit-fonts/",
     "https://plugins.svn.wordpress.org/custom-typekit-fonts/trunk/",
     "https://wordpress.org/plugins/typekit-fonts-for-wordpress/",
-    "https://plugins.svn.wordpress.org/typekit-fonts-for-wordpress/trunk/"
+    "https://plugins.svn.wordpress.org/typekit-fonts-for-wordpress/trunk/",
+    "https://helpx.adobe.com/fonts/web/font-licensing/webfont-licensing.html"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

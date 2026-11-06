@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "shopify-buy-button",
+  "version": 1,
+  "notes": [
+    {
+      "id": "updating-embedded-buttons",
+      "kind": "setup",
+      "text": "To change a Buy Button’s appearance after embedding it, create a new button in the Shopify Buy Button channel and replace the old embed code on your WordPress page. Choose whether checkout opens in a new window or the same tab, then test the published page.",
+      "sources": [
+        "https://help.shopify.com/en/manual/online-sales-channels/buy-button/create-buy-button"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

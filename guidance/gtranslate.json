@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "gtranslate",
+  "version": 1,
+  "notes": [
+    {
+      "id": "translation-data-flow",
+      "kind": "caveat",
+      "text": "In the current WordPress integration, loading the GTranslate widget and translating a page are separate requests. When translation is requested, page text is sent from the visitor’s browser to Google. Paid proxy configurations serve translated pages through GTranslate’s infrastructure. Review the mode you use and which page text is eligible for translation; browser-based translation does not keep that text on the visitor’s device.",
+      "sources": [
+        "https://wordpress.org/plugins/gtranslate/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

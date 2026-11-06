@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "typeform",
-  "version": 2,
+  "version": 3,
   "name": "Typeform",
   "provider": "Typeform SL",
   "category": "functional",
   "purpose": "Shows embedded forms and surveys.",
   "privacyUrl": "https://www.typeform.com/legal/privacy-policy",
-  "dataCountry": "EU",
+  "dataCountry": "USA or EU by account; other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -37,7 +37,9 @@
     "https://www.typeform.com/legal/privacy-policy",
     "https://www.typeform.com/legal/cookie-policy",
     "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
-    "https://wordpress.org/plugins/typeform/"
+    "https://wordpress.org/plugins/typeform/",
+    "https://help.typeform.com/hc/en-us/articles/360029581691-What-happens-to-my-data",
+    "https://plugins.svn.wordpress.org/typeform/trunk/index.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

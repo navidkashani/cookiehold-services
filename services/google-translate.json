@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-translate",
-  "version": 1,
+  "version": 2,
   "name": "Google Translate",
   "provider": "Google Ireland Limited",
   "category": "functional",
   "purpose": "Translates the page into other languages.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -55,7 +55,8 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/google-website-translator/trunk/",
     "https://plugins.svn.wordpress.org/gtranslate/trunk/",
-    "https://plugins.svn.wordpress.org/google-language-translator/trunk/"
+    "https://plugins.svn.wordpress.org/google-language-translator/trunk/",
+    "https://translate.googleapis.com/_/translate_http/_/js/k=translate_http.tr.ru.lI9wywkUXlg.O/am=AAAAAw/d=1/ed=1/rs=AN8SPfrQdr5jfiJAcltaijF2t321PCuQAg/m=el_main"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "paddle-retain",
+  "version": 1,
+  "notes": [
+    {
+      "id": "billing-customer-identification",
+      "kind": "setup",
+      "text": "With Paddle Billing, Retain integrates through Paddle.js without a separate script installation. On logged-in pages, pass the signed-in customer’s Paddle customer ID in pwCustomer; your WordPress user ID or a subscription ID will not work. Public-facing pages use standard initialization. Follow the separate integration instructions if you use another billing platform.",
+      "sources": [
+        "https://developer.paddle.com/paddle-js/about/include-paddlejs/",
+        "https://developer.paddle.com/build/retain/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

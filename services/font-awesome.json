@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "font-awesome",
-  "version": 1,
+  "version": 2,
   "name": "Font Awesome",
   "provider": "Fonticons, Inc.",
   "category": "functional",
   "purpose": "Loads the site's icons from Font Awesome.",
   "privacyUrl": "https://fontawesome.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA; CDN servers worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -41,7 +41,8 @@
     "https://fontawesome.com/privacy",
     "https://plugins.svn.wordpress.org/font-awesome/trunk/",
     "https://wordpress.org/plugins/font-awesome/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/FortAwesome/Security-Docs-and-Attestation/main/Font_Awesome_Cookie_Info.md"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

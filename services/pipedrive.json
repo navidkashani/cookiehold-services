@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "pipedrive",
-  "version": 1,
+  "version": 2,
   "name": "Pipedrive",
   "provider": "Pipedrive OÜ",
   "category": "functional",
   "purpose": "Shows a sales chat and contact forms.",
   "privacyUrl": "https://www.pipedrive.com/en/privacy",
-  "dataCountry": "EU (Germany or Ireland) for EU accounts; otherwise USA, UK, Canada or Australia",
+  "dataCountry": "Account region (EU, USA, UK, Canada or Australia); other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -52,5 +52,5 @@
     "https://plugins.svn.wordpress.org/leadbooster-by-pipedrive/trunk/pipedrive.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

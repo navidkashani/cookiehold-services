@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "plausible",
-  "version": 1,
+  "version": 2,
   "name": "Plausible Analytics",
   "provider": "Plausible Insights OÜ",
   "category": "statistics",
   "purpose": "Measures visits without cookies.",
   "privacyUrl": "https://plausible.io/privacy",
-  "dataCountry": "EU (Germany)",
+  "dataCountry": "EU",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -29,7 +29,10 @@
   },
   "sources": [
     "https://plausible.io/privacy",
-    "https://wordpress.org/plugins/plausible-analytics/"
+    "https://wordpress.org/plugins/plausible-analytics/",
+    "https://plausible.io/data-policy",
+    "https://plausible.io/docs/wordpress-integration",
+    "https://plugins.svn.wordpress.org/plausible-analytics/trunk/plausible-analytics.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

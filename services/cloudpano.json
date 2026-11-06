@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "cloudpano",
-  "version": 1,
+  "version": 2,
   "name": "CloudPano",
   "provider": "",
   "category": "media",
   "purpose": "Shows embedded 360° virtual tours.",
   "privacyUrl": "https://docs.google.com/document/u/1/d/e/2PACX-1vQsA_vntjttu1c8A0k3vZ4VQEtm6gMGuCuqhtcPvMa2xDzWB8q1yUtM4HRAyQnNaAR2AgOi6oiM2L3t/pub",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -39,5 +39,5 @@
     "https://posthog.com/docs/libraries/js/persistence",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

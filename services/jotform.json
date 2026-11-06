@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "jotform",
-  "version": 1,
+  "version": 2,
   "name": "Jotform",
   "provider": "Jotform Inc.",
   "category": "functional",
   "purpose": "Shows embedded forms.",
   "privacyUrl": "https://www.jotform.com/privacy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework); EU (Germany) for EU accounts",
+  "dataCountry": "USA or EU (Germany); other regions available with Enterprise",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -57,7 +57,8 @@
     "https://plugins.svn.wordpress.org/embed-form/trunk/jotform-wp-embed.php",
     "https://wordpress.org/plugins/embed-form/",
     "https://plugins.svn.wordpress.org/jotform-oembed/trunk/jotform-oembed.php",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://form.jotform.com/enterprise/security/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "xing",
+  "version": 1,
+  "notes": [
+    {
+      "id": "shared-button-loader",
+      "kind": "setup",
+      "text": "When placing several XING share buttons on a page, add the button setup for each location but load the XING share library only once. XING’s documentation separates those two parts of its generated embed code.",
+      "sources": [
+        "https://dev.xing.com/plugins/share_button/docs"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

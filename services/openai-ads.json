@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "openai-ads",
-  "version": 1,
+  "version": 2,
   "name": "ChatGPT Ads",
   "provider": "OpenAI Ireland Limited",
   "category": "marketing",
   "purpose": "Measures ChatGPT ads.",
   "privacyUrl": "https://openai.com/policies/eu-privacy-policy/",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -55,7 +55,8 @@
     "https://openai.com/policies/conversion-terms/",
     "https://openai.com/policies/conversion-dpa/",
     "https://openai.com/policies/eu-privacy-policy/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://openai.com/policies/ad-tools-dpa/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

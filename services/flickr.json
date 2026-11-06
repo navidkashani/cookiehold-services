@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "flickr",
-  "version": 1,
+  "version": 2,
   "name": "Flickr",
   "provider": "Flickr, Inc.",
   "category": "media",
   "purpose": "Shows embedded photos.",
   "privacyUrl": "https://www.flickr.com/help/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -38,5 +38,5 @@
     "https://raw.githubusercontent.com/WordPress/WordPress/master/wp-includes/class-wp-oembed.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

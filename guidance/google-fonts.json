@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "google-fonts",
+  "version": 1,
+  "notes": [
+    {
+      "id": "self-hosting",
+      "kind": "setup",
+      "text": "You can download Google Fonts and serve them from your own site. Replace both the external stylesheet and font-file requests so those font loads no longer contact Google. Local copies need your own updates and browser checks. The hosted API does not set or log cookies, but requests still send Google the visitor’s IP address and request headers.",
+      "sources": [
+        "https://fonts.google.com/faq"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

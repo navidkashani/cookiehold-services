@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "imgur",
+  "version": 1,
+  "notes": [
+    {
+      "id": "page-url-in-embed-request",
+      "kind": "caveat",
+      "text": "Keep private values out of the page URL when embedding Imgur. The current embed script passes the surrounding page URL, including its query string, to the embedded page. Its analytics=false option still includes that URL. Turning off analytics therefore does not mean that the embed stops sending information to Imgur.",
+      "sources": [
+        "https://s.imgur.com/min/embed-controller.js"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

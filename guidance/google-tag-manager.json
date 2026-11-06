@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "google-tag-manager",
+  "version": 1,
+  "notes": [
+    {
+      "id": "consent-initialization",
+      "kind": "setup",
+      "text": "If your consent setup runs through Tag Manager, use the Consent Initialization trigger for tags that set or update consent state. It runs before other triggers. Google recommends the Tag Manager consent APIs for templates; queued gtag commands or callbacks may not finish before the next trigger fires.",
+      "sources": [
+        "https://support.google.com/tagmanager/answer/10718549?hl=en",
+        "https://developers.google.com/tag-platform/security/guides/consent"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "review-tag-consent",
+      "kind": "caveat",
+      "text": "Review each tag's built-in and additional consent checks. The default Not set option performs no additional checks. Built-in checks may change a tag's behavior instead of blocking it. For tags without built-in consent handling, configure the checks needed for your setup; installing the container alone does not make every tag wait for consent.",
+      "sources": [
+        "https://support.google.com/tagmanager/answer/10718549?hl=en"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

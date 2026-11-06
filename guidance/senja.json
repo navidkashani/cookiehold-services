@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "senja",
+  "version": 1,
+  "notes": [
+    {
+      "id": "static-testimonial-export",
+      "kind": "setup",
+      "text": "Senja lets you export a testimonial widget as an image or share its hosted link, as alternatives to embedding it. An image export does not update when testimonials change, so export it again when you need fresh content. An embedded widget updates automatically when you change its testimonials or design.",
+      "sources": [
+        "https://support.senja.io/how-to-share-or-embed-my-widget-in1cl"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

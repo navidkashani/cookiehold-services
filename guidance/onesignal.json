@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "onesignal",
+  "version": 1,
+  "notes": [
+    {
+      "id": "data-consent-and-push-permission",
+      "kind": "caveat",
+      "text": "OneSignal separates permission to collect user data from permission to receive push messages. Enable its data-consent requirement before SDK initialization if collection should wait for a choice. Revoking that consent does not unsubscribe an existing push subscription: OneSignal says to call the SDK optOut method before revoking consent if notifications should also stop.",
+      "sources": [
+        "https://documentation.onesignal.com/docs/en/handling-personal-data"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

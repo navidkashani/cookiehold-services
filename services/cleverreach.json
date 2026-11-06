@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "cleverreach",
-  "version": 1,
+  "version": 2,
   "name": "CleverReach",
   "provider": "CleverReach GmbH & Co. KG",
   "category": "marketing",
   "purpose": "Shows newsletter sign-up forms.",
   "privacyUrl": "https://www.cleverreach.com/en/privacy-policy/",
-  "dataCountry": "EU (Germany)",
+  "dataCountry": "EU (Germany and Ireland)",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -37,7 +37,8 @@
     "https://wordpress.org/plugins/cleverreach-wp/",
     "https://plugins.svn.wordpress.org/cleverreach-wp/trunk/cleverreach-wp.php",
     "https://plugins.svn.wordpress.org/cleverreach/trunk/cleverreach.php",
-    "https://plugins.svn.wordpress.org/cleverreach-wc/trunk/cleverreach-wc.php"
+    "https://plugins.svn.wordpress.org/cleverreach-wc/trunk/cleverreach-wc.php",
+    "https://eu2.cleverreach.com/assets/dpa/5.2_en_example.pdf"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

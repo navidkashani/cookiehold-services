@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "dailymotion",
-  "version": 2,
+  "version": 3,
   "name": "Dailymotion",
   "provider": "Dailymotion SA",
   "category": "media",
   "purpose": "Shows embedded videos.",
   "privacyUrl": "https://legal.dailymotion.com/en/privacy-policy/",
-  "dataCountry": "EU and USA (EU-US Data Privacy Framework)",
+  "dataCountry": "EEA, USA, Singapore and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -56,7 +56,8 @@
   "sources": [
     "https://legal.dailymotion.com/en/privacy-policy/",
     "https://legal.dailymotion.com/en/cookie-policy/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://developers.dailymotion.com/docs/iframe-web"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

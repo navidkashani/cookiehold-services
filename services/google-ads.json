@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-ads",
-  "version": 4,
+  "version": 5,
   "name": "Google Ads",
   "provider": "Google Ireland Limited",
   "category": "marketing",
   "purpose": "Measures ads and shows them to past visitors.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -37,7 +37,7 @@
     },
     {
       "name": "IDE",
-      "lifetime": "13 months",
+      "lifetime": "13–24 months (by region)",
       "purpose": "Ad delivery and measurement.",
       "httpOnly": true
     }
@@ -67,5 +67,5 @@
     "https://plugins.svn.wordpress.org/google-listings-and-ads/trunk/google-listings-and-ads.php",
     "https://plugins.svn.wordpress.org/kliken-marketing-for-google/trunk/kliken-marketing-for-google.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

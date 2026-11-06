@@ -1,9 +1,9 @@
 #!/usr/bin/env node
 //
-// Checks every service, every translation and every public file.
+// Checks every service, guidance entry, translation and public file.
 //
 //     npm run check
-//     npm run format     # rewrite services and translations in the canonical layout
+//     npm run format     # rewrite source JSON in the canonical layout
 //
 // Runs on every pull request (.github/workflows/check.yml).
 
@@ -11,6 +11,7 @@ import { execFileSync } from 'node:child_process';
 import { existsSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { resolve } from 'node:path';
 import { checkCommon, checkLogo, checkPublic, checkServices, checkTranslation, format } from './lib/rules.mjs';
+import { checkGuidance, parseGuidance } from './lib/guidance.mjs';
 
 const ROOT = resolve(import.meta.dirname, '..');
 const fix = process.argv.includes('--fix');
@@ -22,11 +23,11 @@ function read(dir) {
     let text = readFileSync(path, 'utf8');
     let data;
     try {
-      data = JSON.parse(text);
+      data = dir === 'guidance' ? parseGuidance(text) : JSON.parse(text);
     } catch (error) {
       data = { error: String(error) };
     }
-    if (fix && !('error' in data)) {
+    if (fix && !(data && typeof data === 'object' && 'error' in data)) {
       text = format(data);
       writeFileSync(path, text);
     }
@@ -44,6 +45,9 @@ const valid = new Map([...services].filter(([, f]) => !('error' in f.data)).map(
 for (const [id, { data }] of services) {
   if ('error' in data) problems.push(`services/${id}.json: ${data.error}`);
 }
+
+const guidance = read('guidance');
+problems.push(...checkGuidance(guidance, valid));
 
 const commonPath = resolve(ROOT, 'common.json');
 const commonText = readFileSync(commonPath, 'utf8');
@@ -91,4 +95,4 @@ if (problems.length > 0) {
   process.exit(1);
 }
 
-console.log(`${services.size} services, ${logos.length} logos, ${translations.size} translations and ${tracked.length} files checked.`);
+console.log(`${services.size} services, ${guidance.size} guidance entries, ${logos.length} logos, ${translations.size} translations and ${tracked.length} files checked.`);

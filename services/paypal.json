@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "paypal",
-  "version": 2,
+  "version": 3,
   "name": "PayPal",
   "provider": "PayPal (Europe) S.à r.l. et Cie, S.C.A.",
   "category": "essential",
@@ -12,6 +12,7 @@
   "match": {
     "hosts": [
       "paypal.com/sdk/js",
+      "paypal.com/web-sdk/v6/core",
       "paypalobjects.com"
     ]
   },
@@ -53,7 +54,8 @@
     "https://www.paypal.com/ie/legalhub/paypal/privacy-full",
     "https://www.paypal.com/uk/legalhub/paypal/cookie-full",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://wordpress.org/plugins/woocommerce-paypal-payments/"
+    "https://wordpress.org/plugins/woocommerce-paypal-payments/",
+    "https://developer.paypal.com/sdk/js/set-up"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

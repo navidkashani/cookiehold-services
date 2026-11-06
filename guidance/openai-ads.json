@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "openai-ads",
+  "version": 1,
+  "notes": [
+    {
+      "id": "measurement-consent-order",
+      "kind": "setup",
+      "text": "The ChatGPT Ads Measurement Pixel defaults to measurement consent being granted unless you set it to false or it finds a stored denial. If your setup should wait for a visitor choice, send the pixel consent=false command before initialization and update it after that choice. When denied, the pixel does not send measurement-event pings; granting it later permits future events and does not replay blocked events.",
+      "sources": [
+        "https://developers.openai.com/ads/measurement-pixel"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "optimizely",
-  "version": 2,
+  "version": 3,
   "name": "Optimizely",
   "provider": "Optimizely North America Inc.",
   "category": "statistics",
   "purpose": "Runs A/B tests and measures their results.",
   "privacyUrl": "https://www.optimizely.com/legal/privacy-notice/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -36,7 +36,9 @@
       "purpose": "Remembers that the visitor opted out of tests."
     }
   ],
-  "storage": [],
+  "storage": [
+    "optimizely_data*"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -51,5 +53,5 @@
     "https://docs.optimizely.com/web-experimentation/docs/cookies-and-localstorage-in-snippets",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

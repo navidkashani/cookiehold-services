@@ -10,6 +10,8 @@ permissions:
 
 jobs:
   check:
+    # Keep this status name stable: the repository ruleset requires it.
+    # npm run check also validates optional guidance.
     name: Services, translations and public files
     runs-on: ubuntu-latest
     steps:

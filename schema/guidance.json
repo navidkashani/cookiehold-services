@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "title": "Service guidance",
+  "description": "Optional English guidance for site owners. One file per permanent service id, separate from the plugin catalog.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["$schema", "id", "version", "notes"],
+  "properties": {
+    "$schema": { "const": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json" },
+    "id": { "$ref": "#/$defs/id" },
+    "version": { "type": "integer", "minimum": 1, "description": "Guidance revision, independent of the service version. Raise by one on every file change." },
+    "notes": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "text", "sources", "checked"],
+        "properties": {
+          "id": { "$ref": "#/$defs/id", "description": "Stable within this service. Keep it when updating the same topic." },
+          "kind": { "enum": ["setup", "caveat"] },
+          "text": { "type": "string", "minLength": 1, "maxLength": 700, "pattern": "^[^<>\r\n]+$", "description": "Short plain text, with no markup or links. Source links belong in sources." },
+          "sources": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^https://[^\\s]+$", "maxLength": 300 },
+            "description": "Official vendor pages supporting this note, checked individually. Not a copy of the service's source list."
+          },
+          "checked": { "type": "string", "pattern": "^20[0-9]{2}-(0[1-9]|1[0-2])-(0[1-9]|[12][0-9]|3[01])$", "description": "Date this note was verified against its sources, not the build date." }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$", "maxLength": 60 }
+  }
+}
