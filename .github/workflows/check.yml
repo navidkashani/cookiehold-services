@@ -10,7 +10,9 @@ permissions:
 
 jobs:
   check:
-    name: Services, guidance, translations and public files
+    # Keep this status name stable: the repository ruleset requires it.
+    # npm run check also validates optional guidance.
+    name: Services, translations and public files
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
