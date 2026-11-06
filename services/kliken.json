@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "kliken",
-  "version": 1,
+  "version": 2,
   "name": "Kliken",
   "provider": "Sitewit Corp",
   "category": "marketing",
   "purpose": "Tracks sales from ads and retargets visitors.",
   "privacyUrl": "https://www.kliken.com/privacy.html",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries where service providers operate",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -63,5 +63,5 @@
     "https://plugins.svn.wordpress.org/kliken-ads-pixel-for-meta/trunk/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "google-calendar",
+  "version": 1,
+  "notes": [
+    {
+      "id": "calendar-and-booking-visibility",
+      "kind": "setup",
+      "text": "Check which Google Calendar view you are embedding. An ordinary embedded calendar follows its sharing permissions, so use a separate calendar containing only events intended for your audience. Appointment booking pages are always public to anyone with the link and display your account name and profile photo. Review those details before sharing a booking page.",
+      "sources": [
+        "https://support.google.com/calendar/answer/41207",
+        "https://support.google.com/calendar/answer/10733297"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

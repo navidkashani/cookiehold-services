@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "hubspot",
-  "version": 1,
+  "version": 2,
   "name": "HubSpot",
   "provider": "HubSpot Ireland Limited",
   "category": "marketing",
   "purpose": "Tracks visits to build marketing contact records.",
   "privacyUrl": "https://legal.hubspot.com/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Account region (USA, EU, Canada or Australia); other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -56,7 +56,8 @@
     "https://legal.hubspot.com/privacy-policy",
     "https://knowledge.hubspot.com/privacy-and-consent/what-cookies-does-hubspot-set-in-a-visitor-s-browser",
     "https://wordpress.org/plugins/leadin/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://knowledge.hubspot.com/account-security/hubspot-cloud-infrastructure-and-data-hosting-frequently-asked-questions"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

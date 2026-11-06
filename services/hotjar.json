@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "hotjar",
-  "version": 2,
+  "version": 3,
   "name": "Hotjar",
   "provider": "Hotjar Ltd.",
   "category": "statistics",
@@ -59,7 +59,9 @@
     }
   ],
   "storage": [
-    "_hjUserAttributes"
+    "_hjUserAttributes",
+    "hjViewportId",
+    "hjActiveViewportIds"
   ],
   "consentMode": {
     "google": false,
@@ -79,7 +81,9 @@
     "https://docs.contentsquare.com/en/web/cookies/",
     "https://trust.contentsquare.com/?itemUid=fa7a4923-3f51-431c-9eb6-3f88989ea858&source=title",
     "https://wordpress.org/plugins/hotjar/",
-    "https://github.com/jkwakman/Open-Cookie-Database"
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://help.hotjar.com/hc/en-us/articles/36819973371409-Cookies-Set-by-the-Hotjar-Tracking-Code",
+    "https://plugins.svn.wordpress.org/hotjar/trunk/hotjar.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "hubspot-forms",
+  "version": 1,
+  "notes": [
+    {
+      "id": "chat-cookie-consent-timing",
+      "kind": "setup",
+      "text": "Review the chatflow’s Consent to collect chat cookies setting. Prompting before chat prevents visitors from starting a chat without accepting; prompting on exit lets them start, but the conversation ends on navigation if they decline. Choose the timing deliberately and check the separate analytics-banner settings.",
+      "sources": [
+        "https://knowledge.hubspot.com/privacy-and-consent/what-cookies-does-hubspot-set-in-a-visitor-s-browser"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

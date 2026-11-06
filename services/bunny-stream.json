@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "bunny-stream",
-  "version": 1,
+  "version": 2,
   "name": "Bunny Stream",
   "provider": "BunnyWay d.o.o.",
   "category": "media",
   "purpose": "Shows embedded videos.",
   "privacyUrl": "https://bunny.net/privacy/",
-  "dataCountry": "EU (Slovenia), served from a global CDN",
+  "dataCountry": "Worldwide (CDN); storage region depends on configuration",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -48,7 +48,9 @@
     "https://player.mediadelivery.net/assets/1.3.37/player.es.js",
     "https://assets.mediadelivery.net/plyr-position.js",
     "https://wordpress.org/plugins/bunnycdn/",
-    "https://plugins.svn.wordpress.org/bunnycdn/tags/3.1.1/"
+    "https://plugins.svn.wordpress.org/bunnycdn/tags/3.1.1/",
+    "https://bunny.net/docs/stream/data-and-privacy",
+    "https://bunny.net/blog/manage-bunny-stream-from-the-terminal-with-the-bunny-net-cli/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

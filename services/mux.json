@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mux",
-  "version": 1,
+  "version": 2,
   "name": "Mux",
   "provider": "Mux, Inc.",
   "category": "media",
   "purpose": "Shows embedded videos.",
   "privacyUrl": "https://www.mux.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries; optional EU (Germany) ingestion",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -57,5 +57,5 @@
     "https://player.mux.com/EcHgOK9coz5K4rjSwOkoE7Y7O01201YMIC200RI6lNxnhs",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-tag-manager",
-  "version": 2,
+  "version": 3,
   "name": "Google Tag Manager",
   "provider": "Google Ireland Limited",
   "category": "essential",
-  "purpose": "Loads the site's other tags. It sets no cookies itself; each tag it loads waits for its own consent.",
+  "purpose": "Loads the site's other tags.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -37,7 +37,12 @@
     "https://policies.google.com/privacy/frameworks",
     "https://developers.google.com/tag-platform/security/guides/privacy",
     "https://www.dataprivacyframework.gov/list",
-    "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager/trunk/duracelltomi-google-tag-manager-for-wordpress.php"
+    "https://plugins.svn.wordpress.org/duracelltomi-google-tag-manager/trunk/duracelltomi-google-tag-manager-for-wordpress.php",
+    "https://support.google.com/tagmanager/answer/10718549?hl=en",
+    "https://support.google.com/tagmanager/answer/9323295?hl=en",
+    "https://support.google.com/tagmanager/answer/14847097?hl=en",
+    "https://developers.google.com/tag-platform/security/concepts/consent-mode",
+    "https://plugins.svn.wordpress.org/google-site-kit/trunk/google-site-kit.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

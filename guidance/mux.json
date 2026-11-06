@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "mux",
+  "version": 1,
+  "notes": [
+    {
+      "id": "cookies-and-tracking-controls",
+      "kind": "caveat",
+      "text": "Mux Player has separate controls for cookies and analytics. disable-cookies prevents Mux Data cookies but does not disable Mux Data tracking; use disable-tracking for that. Player preferences are separate: no-volume-pref and no-muted-pref disable saving those preferences in local storage. Check the player settings exposed by your integration before assuming that a cookie setting disables all storage or analytics.",
+      "sources": [
+        "https://raw.githubusercontent.com/muxinc/elements/refs/heads/main/packages/mux-player/REFERENCE.md",
+        "https://www.mux.com/docs/guides/monitor-html5-video-element"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

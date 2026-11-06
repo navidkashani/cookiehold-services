@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "linkedin-embed",
-  "version": 1,
+  "version": 2,
   "name": "LinkedIn embeds",
   "provider": "LinkedIn Ireland Unlimited Company",
   "category": "media",
   "purpose": "Shows embedded LinkedIn posts and badges.",
   "privacyUrl": "https://www.linkedin.com/legal/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -59,5 +59,5 @@
     "https://www.linkedin.com/legal/privacy-policy",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-11-01"
+  "checked": "2026-11-06"
 }

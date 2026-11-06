@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "smartlook",
-  "version": 2,
+  "version": 3,
   "name": "Smartlook",
   "provider": "Smartlook.com, s.r.o.",
   "category": "statistics",
@@ -22,8 +22,8 @@
   "cookies": [
     {
       "name": "SL_C_*",
-      "lifetime": "13 months",
-      "purpose": "Tells visitors apart and keeps the session."
+      "lifetime": "13 months; probes removed",
+      "purpose": "Stores visitor and session IDs or checks the cookie domain."
     }
   ],
   "storage": [
@@ -46,5 +46,5 @@
     "https://web.developer.smartlook.com/reference/smartlookinit",
     "https://help.smartlook.com/docs/privacy-statement-full"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

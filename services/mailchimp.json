@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mailchimp",
-  "version": 3,
+  "version": 4,
   "name": "Mailchimp",
   "provider": "The Rocket Science Group LLC",
   "category": "marketing",
   "purpose": "Tracks visits for email marketing.",
   "privacyUrl": "https://www.intuit.com/privacy/statement/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -17,17 +17,17 @@
   "cookies": [
     {
       "name": "mailchimp_user_email",
-      "lifetime": "30 days",
+      "lifetime": "28 days",
       "purpose": "Remembers the shopper's email for cart reminders."
     },
     {
       "name": "mailchimp.cart.previous_email",
-      "lifetime": "30 days",
+      "lifetime": "Session",
       "purpose": "Clears old cart data after an email change."
     },
     {
       "name": "mailchimp.cart.current_email",
-      "lifetime": "30 days",
+      "lifetime": "Session",
       "purpose": "Holds the shopper's email for the current cart."
     }
   ],
@@ -50,7 +50,11 @@
     "https://github.com/mailchimp/mc-woocommerce/wiki/Enable-or-Disable-Cookie-Filter",
     "https://wordpress.org/plugins/mailchimp-for-woocommerce/",
     "https://www.dataprivacyframework.gov/list",
-    "https://plugins.svn.wordpress.org/mailchimp-for-wp/trunk/mailchimp-for-wp.php"
+    "https://plugins.svn.wordpress.org/mailchimp-for-wp/trunk/mailchimp-for-wp.php",
+    "https://mailchimp.com/legal/data-processing-addendum/",
+    "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/includes/class-mailchimp-woocommerce-service.php",
+    "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/bootstrap.php",
+    "https://plugins.svn.wordpress.org/mailchimp-for-woocommerce/tags/6.3/public/js/mailchimp-woocommerce-public.js"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

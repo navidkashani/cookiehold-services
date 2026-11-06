@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "livechat",
-  "version": 2,
+  "version": 3,
   "name": "LiveChat",
   "provider": "Text, Inc.",
   "category": "functional",
   "purpose": "Live chat.",
   "privacyUrl": "https://www.livechat.com/legal/privacy-policy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework) or EU, chosen by the site",
+  "dataCountry": "USA or EU storage, chosen by the site; processing in other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -39,7 +39,9 @@
       "purpose": "Tells chat visitors apart."
     }
   ],
-  "storage": [],
+  "storage": [
+    "_livechat_has_visited"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -58,7 +60,8 @@
     "https://www.livechat.com/features/data-center-in-europe/",
     "https://raw.githubusercontent.com/jkwakman/Open-Cookie-Database/master/open-cookie-database.csv",
     "https://wordpress.org/plugins/livechat-woocommerce/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.livechat.com/legal/data-storage-policy/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "youtube",
-  "version": 3,
+  "version": 4,
   "name": "YouTube",
   "provider": "Google Ireland Limited",
   "category": "media",
   "purpose": "Shows embedded videos.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -55,7 +55,11 @@
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/feeds-for-youtube/trunk/youtube-feed.php",
-    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php"
+    "https://plugins.svn.wordpress.org/wp-social-reviews/trunk/wp-social-reviews.php",
+    "https://support.google.com/youtube/answer/171780?hl=en",
+    "https://developers.google.com/youtube/iframe_api_reference",
+    "https://developers.google.com/youtube/terms/developer-policies",
+    "https://policies.google.com/faq?hl=en"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

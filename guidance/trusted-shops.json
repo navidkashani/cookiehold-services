@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "trusted-shops",
+  "version": 1,
+  "notes": [
+    {
+      "id": "order-data-consent-control",
+      "kind": "caveat",
+      "text": "Trusted Shops documents a consent integration that prevents automatic order-data transfer until consent, while still displaying the Trustcard. Customers can initiate a transfer by interacting with that card to request buyer protection or a review invitation. The integration requires adapting the vendor’s consent signaller and having Trusted Shops enable the feature. It is distinct from blocking the entire widget.",
+      "sources": [
+        "https://help.etrusted.com/hc/en-gb/articles/23970835518354-How-do-I-integrate-the-Trustbadge-into-my-Consent-Manager"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

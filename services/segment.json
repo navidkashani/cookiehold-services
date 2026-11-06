@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "segment",
-  "version": 3,
+  "version": 4,
   "name": "Segment",
   "provider": "Twilio Inc.",
   "category": "statistics",
   "purpose": "Collects visit data for the site's other tools.",
   "privacyUrl": "https://www.twilio.com/en-us/legal/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA or EU (workspace region); destinations may process elsewhere",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -38,7 +38,10 @@
   ],
   "storage": [
     "ajs_user_traits",
-    "ajs_group_properties"
+    "ajs_group_properties",
+    "ajs_anonymous_id",
+    "ajs_user_id",
+    "ajs_group_id"
   ],
   "consentMode": {
     "google": false,
@@ -55,7 +58,8 @@
     "https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/website/javascript/quickstart/",
     "https://www.twilio.com/docs/segment/guides/regional-segment/",
     "https://dataprivacyframework.gov/list",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.twilio.com/docs/segment/connections/sources/catalog/libraries/website/javascript/cookie-validity-update"
   ],
-  "checked": "2026-10-28"
+  "checked": "2026-11-06"
 }

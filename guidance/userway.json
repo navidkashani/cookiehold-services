@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "userway",
+  "version": 1,
+  "notes": [
+    {
+      "id": "fixed-widget-version",
+      "kind": "setup",
+      "text": "If you pin a UserWay widget version so you can test it before rollout, plan to update that pin. UserWay documents a dashboard endpoint that supplies the current fixed script and optional integrity hash, and asks owners using fixed versions to update quarterly because old versions are not supported indefinitely. Include those updates in your site maintenance.",
+      "sources": [
+        "https://help.userway.org/en/articles/10219337-load-a-fixed-version-of-the-userway-javascript-via-the-userway-cdn"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

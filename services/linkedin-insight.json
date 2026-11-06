@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "linkedin-insight",
-  "version": 3,
+  "version": 4,
   "name": "LinkedIn Insight Tag",
   "provider": "LinkedIn Ireland Unlimited Company",
   "category": "marketing",
   "purpose": "Measures LinkedIn ads.",
   "privacyUrl": "https://www.linkedin.com/legal/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -72,5 +72,5 @@
     "https://www.linkedin.com/help/linkedin/answer/a1343190/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-11-01"
+  "checked": "2026-11-06"
 }

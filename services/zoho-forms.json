@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "zoho-forms",
-  "version": 1,
+  "version": 2,
   "name": "Zoho Forms",
-  "provider": "Zoho Corporation B.V.",
+  "provider": "Zoho Corporation B.V. or Zoho Corporation GmbH (depends on customer country)",
   "category": "functional",
   "purpose": "Shows embedded forms.",
   "privacyUrl": "https://www.zoho.com/privacy.html",
-  "dataCountry": "EU for EU accounts; otherwise USA, India or another Zoho region",
+  "dataCountry": "EU for EU accounts; other Zoho regions; India support and optional transfers",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -65,5 +65,5 @@
     "https://wordpress.org/plugins/zoho-forms/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

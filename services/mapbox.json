@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mapbox",
-  "version": 1,
+  "version": 2,
   "name": "Mapbox",
   "provider": "Mapbox, Inc.",
   "category": "media",
   "purpose": "Shows embedded maps.",
   "privacyUrl": "https://www.mapbox.com/legal/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA; CDN delivery and staff access in other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -44,7 +44,9 @@
     "https://github.com/mapbox/mapbox-gl-js/blob/main/src/util/mapbox.ts",
     "https://www.mapbox.com/legal/privacy",
     "https://www.mapbox.com/legal/notice-of-certification",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://raw.githubusercontent.com/mapbox/mapbox-gl-js/main/src/util/mapbox.ts",
+    "https://docs.mapbox.com/accounts/guides/tokens/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

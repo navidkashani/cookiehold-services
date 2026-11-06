@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "adobe-fonts",
+  "version": 1,
+  "notes": [
+    {
+      "id": "hosting-license",
+      "kind": "caveat",
+      "text": "Adobe Fonts’ web licence uses Adobe’s embed code and hosted delivery. It does not include permission to copy the font files to your own server. If local hosting is needed, obtain a suitable licence from the font foundry or an authorised reseller. For a client site, use the client’s own Creative Cloud subscription for the web project.",
+      "sources": [
+        "https://helpx.adobe.com/fonts/web/font-licensing/webfont-licensing.html"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

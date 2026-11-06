@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mailjet",
-  "version": 1,
+  "version": 2,
   "name": "Mailjet",
   "provider": "Mailjet SAS",
   "category": "marketing",
   "purpose": "Shows newsletter sign-up forms.",
   "privacyUrl": "https://www.mailjet.com/legal/privacy-policy/",
-  "dataCountry": "EU (Germany and Belgium) and USA (EU-US Data Privacy Framework)",
+  "dataCountry": "EU; USA and Asia-Pacific for support",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -48,5 +48,5 @@
     "https://plugins.svn.wordpress.org/mailjet-for-wordpress/trunk/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

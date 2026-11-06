@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "komoot",
-  "version": 1,
+  "version": 2,
   "name": "komoot",
   "provider": "komoot GmbH",
   "category": "media",
   "purpose": "Shows embedded tour maps.",
   "privacyUrl": "https://www.komoot.com/privacy",
-  "dataCountry": "EU",
+  "dataCountry": "EEA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -32,5 +32,5 @@
     "https://www.komoot.com/imprint",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "freshchat",
-  "version": 2,
+  "version": 3,
   "name": "Freshchat",
   "provider": "Freshworks Inc.",
   "category": "functional",
   "purpose": "Live chat and support messages.",
   "privacyUrl": "https://www.freshworks.com/privacy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Selected region (USA, EU, Australia, India or Middle East); other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -35,7 +35,8 @@
     "https://www.freshworks.com/list-of-cookies/",
     "https://developers.freshchat.com/web-sdk/",
     "https://wordpress.org/plugins/freshchat/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://www.freshworks.com/privacy/sub-processor/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

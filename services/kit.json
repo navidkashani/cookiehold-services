@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "kit",
-  "version": 1,
+  "version": 2,
   "name": "Kit",
   "provider": "Kit, Inc.",
   "category": "marketing",
   "purpose": "Shows sign-up forms for an email newsletter.",
   "privacyUrl": "https://kit.com/privacy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -31,6 +31,11 @@
       "name": "ck_non_inline_form_displayed",
       "lifetime": "Session",
       "purpose": "Shows at most one pop-up form per visit."
+    },
+    {
+      "name": "wordpress_ck_subscriber_id",
+      "lifetime": "1 year",
+      "purpose": "Remembers the subscriber for member content."
     }
   ],
   "storage": [
@@ -64,5 +69,5 @@
     "https://plugins.svn.wordpress.org/convertkit-for-woocommerce/trunk/woocommerce-convertkit.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

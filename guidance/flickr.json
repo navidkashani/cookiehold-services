@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "flickr",
+  "version": 1,
+  "notes": [
+    {
+      "id": "public-photo-and-guest-pass",
+      "kind": "caveat",
+      "text": "Check the photo's visibility before using an embed. Flickr says private photos cannot be displayed outside Flickr. Sharing non-public content by a Guest Pass is a separate option: anyone who receives that link can view the shared content, so avoid putting a private Guest Pass on a public page.",
+      "sources": [
+        "https://www.flickrhelp.com/hc/en-us/articles/4404069932436-Troubleshoot-sharing-or-embedding-issues",
+        "https://www.flickrhelp.com/hc/en-us/articles/4404078014356-Share-your-Flickr-content"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

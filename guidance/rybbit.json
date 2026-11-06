@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "rybbit",
+  "version": 1,
+  "notes": [
+    {
+      "id": "identification-and-logout",
+      "kind": "caveat",
+      "text": "Rybbit’s optional identify feature links activity to a persistent user identity, including recent activity before sign-in. Its clearUserId method clears the browser’s stored user ID for future events, but does not remove database aliases or previously attributed events. Review this behavior before adding identification to a sign-in flow.",
+      "sources": [
+        "https://rybbit.com/docs/identify-users"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

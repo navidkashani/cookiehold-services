@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "shortpixel-cdn",
-  "version": 1,
+  "version": 2,
   "name": "ShortPixel CDN",
   "provider": "ID SCOUT SRL",
   "category": "essential",
   "purpose": "Serves the site's images faster.",
   "privacyUrl": "https://shortpixel.com/privacy",
-  "dataCountry": "EU (Germany and Romania), served from a global CDN",
+  "dataCountry": "EU (Germany, Finland and Romania); global CDN",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -44,5 +44,5 @@
     "https://wordpress.org/plugins/shortpixel-adaptive-images/",
     "https://wordpress.org/plugins/shortpixel-image-optimiser/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,12 +1,12 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "quora-pixel",
-  "version": 2,
+  "version": 3,
   "name": "Quora Pixel",
   "provider": "",
   "category": "marketing",
   "purpose": "Measures Quora ads.",
-  "privacyUrl": "",
+  "privacyUrl": "https://www.quora.com/about/privacy",
   "dataCountry": "",
   "legalBasis": "consent",
   "match": {
@@ -31,7 +31,9 @@
     "handles": []
   },
   "sources": [
-    "https://business.quora.com/"
+    "https://business.quora.com/",
+    "https://help.quora.com/hc/en-us/articles/360000839683-What-opt-out-choices-do-I-have",
+    "https://business.quora.com/marketing-advertising-resources/quora-pixel-conversion-tracking-setup"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

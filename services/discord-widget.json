@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "discord-widget",
-  "version": 1,
+  "version": 2,
   "name": "Discord",
   "provider": "Discord Netherlands BV",
   "category": "media",
   "purpose": "Shows a Discord server's online members.",
   "privacyUrl": "https://discord.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -34,5 +34,5 @@
     "https://docs.discord.com/developers/resources/guild",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

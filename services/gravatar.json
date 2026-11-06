@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "gravatar",
-  "version": 3,
+  "version": 4,
   "name": "Gravatar",
   "provider": "Aut O'Mattic A8C Ireland Ltd.",
   "category": "media",
   "purpose": "Shows profile pictures next to comments.",
   "privacyUrl": "https://automattic.com/privacy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -34,7 +34,9 @@
     "https://automattic.com/privacy/",
     "https://automattic.com/cookies/",
     "https://www.dataprivacyframework.gov/list",
-    "https://plugins.svn.wordpress.org/gravatar-enhanced/trunk/gravatar-enhanced.php"
+    "https://plugins.svn.wordpress.org/gravatar-enhanced/trunk/gravatar-enhanced.php",
+    "https://support.gravatar.com/privacy-and-security/data-privacy/",
+    "https://support.gravatar.com/privacy-pledge/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

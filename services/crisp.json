@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "crisp",
-  "version": 3,
+  "version": 4,
   "name": "Crisp",
   "provider": "Crisp IM SAS",
   "category": "functional",
   "purpose": "Live chat.",
   "privacyUrl": "https://crisp.chat/en/privacy/",
-  "dataCountry": "EU (Netherlands and Germany)",
+  "dataCountry": "EU (Netherlands, Germany); relay logs in USA, UK and Singapore",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -20,7 +20,7 @@
   "cookies": [
     {
       "name": "crisp-client/*",
-      "lifetime": "6 months",
+      "lifetime": "6 months by default",
       "purpose": "Keeps the chat history across pages and visits."
     }
   ],
@@ -41,7 +41,8 @@
     "https://crisp.chat/en/cookies/",
     "https://help.crisp.chat/en/article/crisp-chatbox-cookie-ip-policy-1147xor/",
     "https://help.crisp.chat/en/article/crisp-eu-gdpr-compliance-status-nhv54c/",
-    "https://wordpress.org/plugins/crisp/"
+    "https://wordpress.org/plugins/crisp/",
+    "https://docs.crisp.chat/guides/chatbox-sdks/web-sdk/cookie-policies/"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

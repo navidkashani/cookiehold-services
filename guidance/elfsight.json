@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "elfsight",
+  "version": 1,
+  "notes": [
+    {
+      "id": "account-cookie-switch",
+      "kind": "setup",
+      "text": "Elfsight says the account owner can ask its support team to disable its visitor view-count cookie for all widgets in that account. This does not disable cookies used by embedded social platforms; its guide identifies Facebook, YouTube and Tumblr as possible additional sources. Review the actual widget type when choosing this account-wide setting.",
+      "sources": [
+        "https://help.elfsight.com/article/418-elfsight-and-gdpr"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "widget-font-choice",
+      "kind": "setup",
+      "text": "For Elfsight widgets with a font selector, choose Default (Apply from Website) to inherit your site fonts instead of loading Google Fonts through the widget setting. Check the widget type: Elfsight says its Google Maps app can still load Google Fonts while fetching location data, despite having no font selector.",
+      "sources": [
+        "https://help.elfsight.com/article/418-elfsight-and-gdpr"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

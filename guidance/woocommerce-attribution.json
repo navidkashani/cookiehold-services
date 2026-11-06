@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "woocommerce-attribution",
+  "version": 1,
+  "notes": [
+    {
+      "id": "attribution-settings-and-consent",
+      "kind": "setup",
+      "text": "Turn order attribution on or off under the Features section of WooCommerce’s advanced settings. WooCommerce provides a WP Consent API integration; version 11.2.2 uses its marketing consent signal when that API is active. Check the consent connection on your site before relying on it. Turning attribution off does not remove information already attached to past orders.",
+      "sources": [
+        "https://woocommerce.com/document/order-attribution-tracking/",
+        "https://plugins.svn.wordpress.org/woocommerce/tags/11.2.2/src/Internal/Integrations/WPConsentAPI.php"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

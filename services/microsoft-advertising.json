@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "microsoft-advertising",
-  "version": 2,
+  "version": 3,
   "name": "Microsoft Advertising (UET)",
   "provider": "Microsoft Ireland Operations Limited",
   "category": "marketing",
   "purpose": "Measures Microsoft Advertising (Bing) ads.",
   "privacyUrl": "https://www.microsoft.com/en-us/privacy/privacystatement",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -20,21 +20,33 @@
   "cookies": [
     {
       "name": "_uetsid",
-      "lifetime": "30 minutes",
+      "lifetime": "1 day",
       "purpose": "Ad measurement."
     },
     {
       "name": "_uetvid",
-      "lifetime": "16 days",
+      "lifetime": "390 days",
       "purpose": "Ad measurement."
     },
     {
       "name": "MUID",
       "lifetime": "1 year",
       "purpose": "Tells browsers apart."
+    },
+    {
+      "name": "_uetmsclkid",
+      "lifetime": "90 days",
+      "purpose": "Stores the Microsoft ad click."
     }
   ],
-  "storage": [],
+  "storage": [
+    "_uetsid",
+    "_uetsid_exp",
+    "_uetvid",
+    "_uetvid_exp",
+    "_uetmsclkid",
+    "_uetmsclkid_exp"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -49,7 +61,9 @@
     "https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_uet_consentfaq",
     "https://www.microsoft.com/en-us/privacy/privacystatement",
     "https://github.com/jkwakman/Open-Cookie-Database",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://bat.bing.com/bat.js",
+    "https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_uet_parameters_table"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

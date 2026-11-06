@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "woocommerce-attribution",
-  "version": 3,
+  "version": 4,
   "name": "WooCommerce order attribution",
   "provider": "This website",
   "category": "marketing",
   "purpose": "Saves where your visit came from with your order.",
   "privacyUrl": "https://woocommerce.com/document/order-attribution-tracking/",
-  "dataCountry": "Stays on this website",
+  "dataCountry": "Website hosting location; worldwide if usage sharing is enabled",
   "legalBasis": "consent",
   "match": {},
   "cookies": [
@@ -37,7 +37,10 @@
   "sources": [
     "https://woocommerce.com/document/order-attribution-tracking/",
     "https://wordpress.org/plugins/woocommerce/",
-    "https://github.com/jkwakman/Open-Cookie-Database"
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://woocommerce.com/usage-tracking/",
+    "https://automattic.com/privacy/",
+    "https://plugins.svn.wordpress.org/woocommerce/tags/11.2.2/src/Internal/Integrations/WPConsentAPI.php"
   ],
-  "checked": "2026-10-28"
+  "checked": "2026-11-06"
 }

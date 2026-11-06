@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "amplitude",
-  "version": 2,
+  "version": 3,
   "name": "Amplitude",
   "provider": "Amplitude, Inc.",
   "category": "statistics",
   "purpose": "Measures how visitors use the site.",
   "privacyUrl": "https://amplitude.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA or EU (Germany), according to project region",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -21,7 +21,7 @@
   "cookies": [
     {
       "name": "AMP_*",
-      "lifetime": "1 year",
+      "lifetime": "1 year; probes removed",
       "purpose": "Tells visitors apart."
     },
     {
@@ -46,7 +46,8 @@
     "https://amplitude.com/privacy",
     "https://amplitude.com/docs/sdks/analytics/browser/cookies-and-consent-management",
     "https://amplitude.com/docs/sdks/analytics/browser/browser-sdk-2",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://amplitude.com/security-and-privacy"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

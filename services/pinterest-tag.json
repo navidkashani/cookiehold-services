@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "pinterest-tag",
-  "version": 2,
+  "version": 3,
   "name": "Pinterest Tag",
-  "provider": "Pinterest Europe Limited",
+  "provider": "Pinterest Europe Limited and Pinterest, Inc.",
   "category": "marketing",
   "purpose": "Measures Pinterest ads.",
   "privacyUrl": "https://policy.pinterest.com/en/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -35,6 +35,11 @@
       "name": "_derived_epik",
       "lifetime": "1 year",
       "purpose": "Ad measurement."
+    },
+    {
+      "name": "_pin_aem",
+      "lifetime": "1 year",
+      "purpose": "Stores hashed details for ad matching."
     }
   ],
   "storage": [],
@@ -56,5 +61,5 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/pinterest-for-woocommerce/trunk/pinterest-for-woocommerce.php"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

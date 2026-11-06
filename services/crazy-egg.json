@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "crazy-egg",
-  "version": 2,
+  "version": 3,
   "name": "Crazy Egg",
   "provider": "Crazy Egg, Inc.",
   "category": "statistics",
   "purpose": "Heatmaps and session recordings.",
   "privacyUrl": "https://www.crazyegg.com/privacy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -41,7 +41,11 @@
       "purpose": "Keeps the current session."
     }
   ],
-  "storage": [],
+  "storage": [
+    "_ce.av",
+    "ce_local_asset_cache",
+    "ce_csp_transport_check"
+  ],
   "consentMode": {
     "google": false,
     "advanced": false
@@ -59,7 +63,8 @@
     "https://support.crazyegg.com/knowledge-base/crazy-egg-privacy-data-practices/",
     "https://www.dataprivacyframework.gov/list",
     "https://wordpress.org/plugins/crazyegg-heatmap-tracking/",
-    "https://github.com/jkwakman/Open-Cookie-Database"
+    "https://github.com/jkwakman/Open-Cookie-Database",
+    "https://plugins.svn.wordpress.org/crazyegg-heatmap-tracking/trunk/crazyegg-heatmap-tracking.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

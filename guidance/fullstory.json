@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "fullstory",
+  "version": 1,
+  "notes": [
+    {
+      "id": "element-consent-limits",
+      "kind": "caveat",
+      "text": "Fullstory’s element-consent API controls capture of designated page elements. It does not block other information sent through identification or user-data API calls. If those calls should wait for a visitor’s choice, arrange that separately in the site’s integration.",
+      "sources": [
+        "https://help.fullstory.com/hc/en-us/articles/360020623254-Capture-elements-with-consent"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

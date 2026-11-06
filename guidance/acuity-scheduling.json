@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "acuity-scheduling",
+  "version": 1,
+  "notes": [
+    {
+      "id": "prefilled-booking-links",
+      "kind": "caveat",
+      "text": "Acuity can prefill contact and intake fields from URL parameters, including parameters passed through the page hosting an embedded scheduler. Review prefilled links before publishing or sharing them, and avoid including private client details in a public link. A field marked Internal Use Only can still be set through these parameters.",
+      "sources": [
+        "https://developers.acuityscheduling.com/docs/embedding"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

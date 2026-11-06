@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "vg-wort",
+  "version": 1,
+  "notes": [
+    {
+      "id": "counter-placement",
+      "kind": "setup",
+      "text": "Place a VG WORT counter only on the page containing the eligible text. Related pages containing only images, advertising or other ineligible material must not use that counter. Incorrect placement can cause VG WORT to deactivate the counter and reject the report.",
+      "sources": [
+        "https://vgwort.de/media/pages/service/dokumente/merkblaetter-und-formulare/5721d6ddd0-1771937772/metis_beschreibung_urheber_5_1.pdf"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "tally",
-  "version": 1,
+  "version": 2,
   "name": "Tally",
   "provider": "Tally BV",
   "category": "functional",
   "purpose": "Shows embedded forms.",
   "privacyUrl": "https://tally.so/help/privacy-policy",
-  "dataCountry": "EU (Belgium)",
+  "dataCountry": "EU (Belgium); USA and other countries depending on features",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -47,5 +47,5 @@
     "https://tally.so/help/data-processing-agreement",
     "https://tally.so/help/how-to-embed-a-tally-form-on-wordpress"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

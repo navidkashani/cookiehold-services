@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "adobe-analytics",
-  "version": 2,
+  "version": 3,
   "name": "Adobe Analytics",
   "provider": "Adobe Systems Software Ireland Limited",
   "category": "statistics",
   "purpose": "Measures visits and conversions.",
   "privacyUrl": "https://www.adobe.com/privacy/policy.html",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA, UK or Singapore for processing; regional collection worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -49,7 +49,7 @@
     },
     {
       "name": "s_ecid",
-      "lifetime": "13 months",
+      "lifetime": "13 months; Web SDK 2 years",
       "purpose": "Keeps the visitor ID."
     }
   ],
@@ -68,7 +68,9 @@
     "https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/cookies/analytics",
     "https://experienceleague.adobe.com/en/docs/id-service/using/intro/cookies",
     "https://experienceleague.adobe.com/en/docs/id-service/using/id-service-api/configurations/cookielifetime",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://experienceleague.adobe.com/en/docs/analytics/technotes/privacy/privacy-overview",
+    "https://experienceleague.adobe.com/en/docs/core-services/interface/data-collection/rdc"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

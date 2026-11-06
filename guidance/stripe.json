@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "stripe",
+  "version": 1,
+  "notes": [
+    {
+      "id": "fraud-detection-coverage",
+      "kind": "setup",
+      "text": "Review which pages load Stripe.js in your payment integration. Stripe recommends loading it throughout the shopping experience, beyond checkout, to improve fraud detection. This collects device and activity signals on those pages, so account for that broader collection when deciding where to load it.",
+      "sources": [
+        "https://docs.stripe.com/disputes/prevention/advanced-fraud-detection"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "disabling-advanced-fraud-detection",
+      "kind": "caveat",
+      "text": "Stripe allows disabling advanced fraud detection on your own site, but warns that this increases fraud risk. It does not stop collection on Stripe-hosted pages, events from Stripe-managed checkout fields, or basic device information used in 3D Secure 2 authentication. Treat this as a limited setting, not a switch that stops all Stripe data collection.",
+      "sources": [
+        "https://docs.stripe.com/disputes/prevention/advanced-fraud-detection"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

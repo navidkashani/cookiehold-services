@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "apple-music",
+  "version": 1,
+  "notes": [
+    {
+      "id": "signed-in-player",
+      "kind": "caveat",
+      "text": "Apple Music player behavior differs for visitors who are signed in. When a signed-in visitor interacts with the player, Apple collects the same information as in the Music app along with the embedding page’s domain. A signed-out preview should not be treated as representative of signed-in playback.",
+      "sources": [
+        "https://www.apple.com/legal/privacy/data/en/apple-music-web/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "mailchimp",
+  "version": 1,
+  "notes": [
+    {
+      "id": "woocommerce-cookie-control",
+      "kind": "caveat",
+      "text": "Mailchimp for WooCommerce provides a developer filter to disable its cookies. The vendor warns that disabling them removes abandoned-cart automations for guest shoppers, while logged-in shoppers can still be handled. Review that tradeoff and the logged-in flow; disabling guest cookies does not switch off every transfer from WooCommerce to Mailchimp.",
+      "sources": [
+        "https://github.com/mailchimp/mc-woocommerce/wiki/Enable-or-Disable-Cookie-Filter"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

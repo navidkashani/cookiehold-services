@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "sketchfab",
-  "version": 1,
+  "version": 2,
   "name": "Sketchfab",
   "provider": "KitBash SF Operations LLC",
   "category": "media",
   "purpose": "Shows embedded 3D models.",
   "privacyUrl": "https://sketchfab.com/privacy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -42,5 +42,5 @@
     "https://static.sketchfab.com/api/sketchfab-viewer-1.12.1.js",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

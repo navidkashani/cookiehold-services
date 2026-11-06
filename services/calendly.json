@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "calendly",
-  "version": 1,
+  "version": 2,
   "name": "Calendly",
   "provider": "Calendly LLC",
   "category": "functional",
   "purpose": "Shows an embedded booking calendar.",
   "privacyUrl": "https://calendly.com/legal/privacy-notice",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -32,7 +32,10 @@
   "sources": [
     "https://calendly.com/legal/privacy-notice",
     "https://calendly.com/help/cookies-and-your-calendly-experience",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://calendly.com/legal/data-processing-addendum",
+    "https://calendly.com/help/calendly-sub-processors-gdpr-ccpa",
+    "https://calendly.com/help/calendly-cookie-management-and-banner"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

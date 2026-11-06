@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "cloudflare-turnstile",
-  "version": 2,
+  "version": 3,
   "name": "Cloudflare Turnstile",
   "provider": "Cloudflare, Inc.",
   "category": "essential",
   "purpose": "Keeps spam out of forms. It sets no tracking cookies and is used only for security.",
-  "privacyUrl": "https://www.cloudflare.com/privacypolicy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "privacyUrl": "https://www.cloudflare.com/turnstile-privacy-policy/",
+  "dataCountry": "USA, EEA and other countries",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -37,7 +37,10 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/simple-cloudflare-turnstile/trunk/",
     "https://plugins.svn.wordpress.org/enable-turnstile-cloudflare-for-gravity-forms/trunk/",
-    "https://plugins.svn.wordpress.org/wppool-turnstile-captcha-spam-filter/trunk/"
+    "https://plugins.svn.wordpress.org/wppool-turnstile-captcha-spam-filter/trunk/",
+    "https://www.cloudflare.com/turnstile-privacy-policy/",
+    "https://developers.cloudflare.com/turnstile/get-started/server-side-validation/",
+    "https://developers.cloudflare.com/turnstile/additional-configuration/hostname-management/pre-clearance/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

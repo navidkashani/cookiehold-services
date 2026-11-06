@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "unsplash",
+  "version": 1,
+  "notes": [
+    {
+      "id": "api-image-hosting",
+      "kind": "caveat",
+      "text": "If your integration uses the Unsplash API, its guidelines require displaying images through the image URLs returned in photo.urls. Replacing these with locally hosted copies is not the default API workflow. Unsplash directs integrations that need their own image hosting to its API team to discuss an alternative. Check whether your WordPress integration uses the API before choosing how to host its images.",
+      "sources": [
+        "https://help.unsplash.com/en/articles/2511271-guideline-hotlinking-images"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

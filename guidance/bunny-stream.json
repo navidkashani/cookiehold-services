@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "bunny-stream",
+  "version": 1,
+  "notes": [
+    {
+      "id": "remembered-player-settings",
+      "kind": "setup",
+      "text": "For Bunny Player embeds, set rememberPosition=false to stop saving playback progress, or rememberSettings=false to disable both saved preferences and saved progress. Bunny documents the latter as disabling local-storage reads and writes for these features. These settings change browser persistence; the player still requests video and may send technical performance telemetry to Bunny.",
+      "sources": [
+        "https://bunny.net/docs/stream/data-and-privacy"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

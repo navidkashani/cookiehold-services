@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "eversports",
-  "version": 1,
+  "version": 2,
   "name": "Eversports",
   "provider": "Eversport GmbH",
   "category": "functional",
   "purpose": "Shows a class schedule and booking widget.",
   "privacyUrl": "https://www.eversports.at/h/privacy",
-  "dataCountry": "EU (Germany)",
+  "dataCountry": "EU (Germany hosting); USA and other countries for service providers",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -46,5 +46,5 @@
     "https://www.eversportsmanager.com/data-processors",
     "https://wordpress.org/plugins/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

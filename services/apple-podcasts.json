@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "apple-podcasts",
-  "version": 1,
+  "version": 2,
   "name": "Apple Podcasts",
   "provider": "Apple Distribution International Limited",
   "category": "media",
   "purpose": "Plays embedded podcast shows and episodes.",
   "privacyUrl": "https://www.apple.com/legal/privacy/en-ww/",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -33,5 +33,5 @@
     "https://embed.podcasts.apple.com/us/podcast/1731172191",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

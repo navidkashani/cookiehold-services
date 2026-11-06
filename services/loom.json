@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "loom",
-  "version": 1,
+  "version": 2,
   "name": "Loom",
   "provider": "Atlassian Pty Ltd and Atlassian, Inc.",
   "category": "media",
   "purpose": "Shows embedded screen recordings.",
   "privacyUrl": "https://www.atlassian.com/legal/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework) and Australia",
+  "dataCountry": "USA or Germany by workspace; other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -42,5 +42,5 @@
     "https://www.atlassian.com/legal/data-transfer-impact-assessment",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

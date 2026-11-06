@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "libsyn",
-  "version": 1,
+  "version": 2,
   "name": "Libsyn",
   "provider": "Liberated Syndication Inc.",
   "category": "media",
   "purpose": "Plays embedded podcast episodes.",
   "privacyUrl": "https://libsyn.com/tos-policies/privacy-policy/",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -39,5 +39,5 @@
     "https://wordpress.org/plugins/libsyn-podcasting/",
     "https://plugins.svn.wordpress.org/libsyn-podcasting/trunk/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

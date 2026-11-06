@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-calendar",
-  "version": 1,
+  "version": 2,
   "name": "Google Calendar",
   "provider": "Google Ireland Limited",
   "category": "media",
   "purpose": "Shows an embedded calendar or booking page.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -52,5 +52,5 @@
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/google-calendar-events/trunk/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

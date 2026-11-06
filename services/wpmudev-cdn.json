@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "wpmudev-cdn",
-  "version": 1,
+  "version": 2,
   "name": "WPMU DEV CDN",
   "provider": "Incsub, LLC",
   "category": "essential",
   "purpose": "Serves the site's images and files faster.",
   "privacyUrl": "https://wpmudev.com/privacy-policy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -44,5 +44,5 @@
     "https://wordpress.org/plugins/hummingbird-performance/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "provenexpert",
-  "version": 1,
+  "version": 2,
   "name": "ProvenExpert",
   "provider": "Expert Systems AG",
   "category": "media",
   "purpose": "Shows customer reviews and a rating seal.",
   "privacyUrl": "https://www.provenexpert.com/en-us/privacy-policy/",
-  "dataCountry": "",
+  "dataCountry": "EU, with possible transfers outside the EU/EEA",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -47,5 +47,5 @@
     "https://wordpress.org/plugins/provenexpert/",
     "https://plugins.svn.wordpress.org/provenexpert/trunk/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

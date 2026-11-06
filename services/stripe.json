@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "stripe",
-  "version": 2,
+  "version": 3,
   "name": "Stripe",
   "provider": "Stripe Payments Europe, Limited",
   "category": "essential",
   "purpose": "Processes card payments and prevents fraud.",
   "privacyUrl": "https://stripe.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA, India and other countries",
   "legalBasis": "contract",
   "match": {
     "hosts": [
@@ -49,7 +49,11 @@
     "https://docs.stripe.com/security/guide",
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://wordpress.org/plugins/woocommerce-gateway-stripe/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://stripe.com/cookie-settings",
+    "https://docs.stripe.com/ips",
+    "https://docs.stripe.com/disputes/prevention/advanced-fraud-detection",
+    "https://plugins.svn.wordpress.org/woocommerce-gateway-stripe/trunk/woocommerce-gateway-stripe.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

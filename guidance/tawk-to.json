@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "tawk-to",
+  "version": 1,
+  "notes": [
+    {
+      "id": "widget-consent-audiences",
+      "kind": "setup",
+      "text": "tawk.to offers a built-in consent form that delays its cookies and local storage until the visitor submits it. Its settings distinguish European visitors from visitors in supported US two-party-consent states, so check each audience you intend to cover. The form is a vendor feature; its presence does not establish that your site-wide consent setup controls the widget.",
+      "sources": [
+        "https://help.tawk.to/article/enabling-and-managing-your-consent-form",
+        "https://help.tawk.to/article/what-are-tawkto-cookies-and-what-do-they-do"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

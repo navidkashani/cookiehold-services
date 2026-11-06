@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "loom",
+  "version": 1,
+  "notes": [
+    {
+      "id": "sharing-controls",
+      "kind": "caveat",
+      "text": "Check who can view a Loom video before embedding it on a public page. Loom's public-embedding guide uses anyone-with-the-link access. Hiding the share button, title or owner in the player changes its appearance; those settings do not restrict who can open the video link. Use the video's sharing permissions to control access.",
+      "sources": [
+        "https://support.atlassian.com/loom/docs/embed-your-video-into-a-webpage/"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "region-selected-at-creation",
+      "kind": "setup",
+      "text": "If regional storage matters to your Loom setup, choose it while creating a new workspace in Atlassian Administration. Loom currently says an existing workspace cannot be moved to a regional workspace and its video content cannot be transferred into one. Check eligibility before planning a migration; selecting a region for a new workspace does not move your existing videos.",
+      "sources": [
+        "https://support.atlassian.com/loom/docs/understand-loom-data-residency/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

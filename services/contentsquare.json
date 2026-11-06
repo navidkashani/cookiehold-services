@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "contentsquare",
-  "version": 1,
+  "version": 2,
   "name": "Contentsquare",
   "provider": "Content Square SAS",
   "category": "statistics",
   "purpose": "Heatmaps and session recordings.",
   "privacyUrl": "https://contentsquare.com/privacy-center/services-privacy-policy/",
-  "dataCountry": "EU (Ireland) or USA (EU-US Data Privacy Framework)",
+  "dataCountry": "EU, UK and USA (varies by feature); other countries for support",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -102,5 +102,5 @@
     "https://www.dataprivacyframework.gov/list",
     "https://wordpress.org/plugins/search/contentsquare/"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

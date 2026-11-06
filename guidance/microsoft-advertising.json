@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "microsoft-advertising",
+  "version": 1,
+  "notes": [
+    {
+      "id": "uet-consent-signals",
+      "kind": "setup",
+      "text": "Configure UET consent signals explicitly. Microsoft documents UET Consent Mode and TCF as alternatives and says not to use both at once. In its basic mode, the tag waits for consent; in advanced mode it can load with consent denied and still send data for aggregate modeling. Check the chosen setup with UET Tag Helper; a Google tag consent setting alone does not establish that a custom UET installation receives it.",
+      "sources": [
+        "https://learn.microsoft.com/en-us/advertising/msa-help/hlp_ba_conc_uet_consentfaq"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

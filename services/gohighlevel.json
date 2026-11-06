@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "gohighlevel",
-  "version": 1,
+  "version": 2,
   "name": "HighLevel",
   "provider": "HighLevel LLC",
   "category": "marketing",
   "purpose": "Shows forms, booking calendars and live chat.",
   "privacyUrl": "https://www.gohighlevel.com/privacy-policy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and India",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -57,5 +57,5 @@
     "https://plugins.svn.wordpress.org/leadconnector/trunk/config.php",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "apple-podcasts",
+  "version": 1,
+  "notes": [
+    {
+      "id": "podcast-host-and-reports",
+      "kind": "caveat",
+      "text": "Playing an episode in Apple’s embedded player streams it from the podcast’s hosting provider. Those plays are not included in Apple Podcasts Connect Analytics; check the hosting provider’s reporting when assessing listening on your website.",
+      "sources": [
+        "https://podcasters.apple.com/support/5619-apple-podcasts-embed-player"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "browser-sign-in",
+      "kind": "caveat",
+      "text": "Apple says player interaction data may be associated with a visitor who is or was signed in to an Apple media service in that browser. The embedded player should not be described as anonymous for every visitor.",
+      "sources": [
+        "https://www.apple.com/legal/privacy/data/en/apple-podcasts-web/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

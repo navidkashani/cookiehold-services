@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "calendly",
+  "version": 1,
+  "notes": [
+    {
+      "id": "hidden-banner-still-uses-cookies",
+      "kind": "caveat",
+      "text": "Calendly’s Hide Cookie Banner option only hides the banner in an embed; Calendly says cookies are still used. If you use this option, configure and check how your website manages the visitor’s preferences and when it loads Calendly. Do not treat hiding the banner as disabling tracking or as an automatic connection to your website’s consent tool.",
+      "sources": [
+        "https://calendly.com/help/calendly-cookie-management-and-banner"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

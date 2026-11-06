@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "hubspot-forms",
-  "version": 1,
+  "version": 2,
   "name": "HubSpot forms and chat",
   "provider": "HubSpot Ireland Limited",
   "category": "functional",
   "purpose": "Shows HubSpot forms and live chat.",
   "privacyUrl": "https://legal.hubspot.com/privacy-policy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Account region (USA, EU, Canada or Australia); other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -24,6 +24,16 @@
       "name": "messagesUtk",
       "lifetime": "6 months",
       "purpose": "Recognises the visitor in the chat."
+    },
+    {
+      "name": "hs-messages-is-open",
+      "lifetime": "30 minutes",
+      "purpose": "Remembers whether the chat window is open."
+    },
+    {
+      "name": "hs-messages-hide-welcome-message",
+      "lifetime": "1 day",
+      "purpose": "Remembers a dismissed chat welcome message."
     }
   ],
   "storage": [],
@@ -45,7 +55,8 @@
     "https://developers.hubspot.com/docs/cms/start-building/features/forms/legacy-forms",
     "https://legal.hubspot.com/privacy-policy",
     "https://wordpress.org/plugins/leadin/",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://knowledge.hubspot.com/account-security/hubspot-cloud-infrastructure-and-data-hosting-frequently-asked-questions"
   ],
-  "checked": "2026-11-04"
+  "checked": "2026-11-06"
 }

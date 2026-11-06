@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "zoho-marketing-automation",
+  "version": 1,
+  "notes": [
+    {
+      "id": "banner-choice-and-tracking",
+      "kind": "caveat",
+      "text": "The Cookies Policy banner settings offer a notice-only mode and a mode that lets visitors opt out. Choose the intended behavior explicitly. Zoho’s guide describes tracking decisions applying from the next visit; do not assume that enabling the banner blocks all tracking on the first visit. Check first visits, return visits and withdrawal in your site’s actual setup.",
+      "sources": [
+        "https://help.zoho.com/portal/en/kb/marketing-automation-2-0/user-guide/settings/consent-and-privacy/articles/configure-cookies-and-privacy-policy-banner"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

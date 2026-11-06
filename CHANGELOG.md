@@ -2,6 +2,24 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.7.0 (2026-11-06)
+
+- Add optional service-page guidance: 98 sourced English setup notes and
+  caveats for 86 services, with note-level verification dates and revisions.
+  The separate `dist/guidance/` bundle is a website build input and is not
+  listed in the plugin's download manifest.
+- Review all 210 service entries and apply supported corrections to 140,
+  including cookie durations, storage identifiers, provider information and
+  processing locations. Preserve permanent IDs and runtime format 1; add
+  the narrow PayPal SDK v6 core path alongside existing detection.
+- Add guidance validation, regression checks and pinned-release website
+  import documentation. Record evidence and unresolved findings in the
+  review ledger; this release does not certify every catalog fact or
+  WordPress integration.
+- Remove the unsupported Tag Manager consent claim from existing languages
+  and remove stale Smartlook cookie translations so the corrected source
+  text can be used. No new translations are generated.
+
 ## 1.6.0 (2026-11-05)
 
 - Cloudflare Web Analytics joins `common.json`, because Cloudflare's automatic

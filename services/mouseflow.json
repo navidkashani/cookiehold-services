@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "mouseflow",
-  "version": 2,
+  "version": 3,
   "name": "Mouseflow",
   "provider": "Mouseflow ApS",
   "category": "statistics",
   "purpose": "Heatmaps and session recordings.",
   "privacyUrl": "https://mouseflow.com/legal/privacy-policy/",
-  "dataCountry": "EU",
+  "dataCountry": "EU or USA (account region)",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -45,7 +45,10 @@
     "https://mouseflow.com/legal/privacy-policy/",
     "https://help.mouseflow.com/en/articles/4282966-what-is-your-cookie-policy",
     "https://mouseflow.com/legal/cookie-policy/",
-    "https://wordpress.org/plugins/mouseflow-for-wordpress/"
+    "https://wordpress.org/plugins/mouseflow-for-wordpress/",
+    "https://mouseflow.com/legal/privacy/",
+    "https://mouseflow.com/legal/subprocessors/",
+    "https://plugins.svn.wordpress.org/mouseflow-for-wordpress/trunk/mouseflow-for-wordpress.php"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

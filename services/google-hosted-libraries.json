@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-hosted-libraries",
-  "version": 1,
+  "version": 2,
   "name": "Google Hosted Libraries",
   "provider": "Google Ireland Limited",
   "category": "essential",
   "purpose": "Delivers code libraries the site uses.",
   "privacyUrl": "https://policies.google.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Worldwide",
   "legalBasis": "legitimate-interest",
   "match": {
     "hosts": [
@@ -31,5 +31,5 @@
     "https://policies.google.com/privacy",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

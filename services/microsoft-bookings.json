@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "microsoft-bookings",
-  "version": 1,
+  "version": 2,
   "name": "Microsoft Bookings",
   "provider": "Microsoft Ireland Operations Limited",
   "category": "functional",
   "purpose": "Shows an embedded booking calendar.",
   "privacyUrl": "https://www.microsoft.com/en-us/privacy/privacystatement",
-  "dataCountry": "EU (EU Data Boundary) for EU tenants, else USA (EU-US Data Privacy Framework)",
+  "dataCountry": "Account-dependent Microsoft 365 regions; limited transfers outside EU/EFTA",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -36,7 +36,9 @@
     "https://learn.microsoft.com/en-us/privacy/eudb/eu-data-boundary-learn",
     "https://www.microsoft.com/en-us/privacy/privacystatement",
     "https://websites.uta.edu/oit/2023/03/27/bookings-end-point-url-for-customers-will-change",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-service-exo",
+    "https://learn.microsoft.com/en-us/microsoft-365/enterprise/m365-dr-what-is-data-residency"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

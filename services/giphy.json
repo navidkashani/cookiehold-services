@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "giphy",
-  "version": 2,
+  "version": 3,
   "name": "GIPHY",
   "provider": "Giphy, Inc.",
   "category": "media",
   "purpose": "Shows embedded GIFs.",
   "privacyUrl": "https://support.giphy.com/hc/en-us/articles/360032872931-GIPHY-Privacy-Policy",
-  "dataCountry": "USA",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -30,5 +30,5 @@
     "https://giphy.com/privacy",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

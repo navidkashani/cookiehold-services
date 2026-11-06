@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "typeform",
+  "version": 1,
+  "notes": [
+    {
+      "id": "form-tracking-cookie-control",
+      "kind": "setup",
+      "text": "In the form settings, enable Cookie consent, save and publish the form. Typeform says this blocks tracking cookies, including those used by connected integrations, until the respondent accepts. Review the form’s connected integrations as well; this setting is not a promise that loading the form sends no data.",
+      "sources": [
+        "https://help.typeform.com/hc/en-us/articles/6389226218132-Activate-cookie-consent"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

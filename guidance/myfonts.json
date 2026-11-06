@@ -1,0 +1,17 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "myfonts",
+  "version": 1,
+  "notes": [
+    {
+      "id": "self-hosting-reporting",
+      "kind": "caveat",
+      "text": "Check the reporting instructions supplied with your licensed web-font kit before treating self-hosting as removing all external requests. Monotype’s self-hosting kits can include a tracking stylesheet for usage reporting. Its font-tracking policy says this reporting does not use cookies, but requests still reach its service provider.",
+      "sources": [
+        "https://support.monotype.com/en/articles/7859123-hosting-web-fonts-and-reporting",
+        "https://www.monotype.com/legal/privacy-policy/web-font-tracking-privacy-policy"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "crisp",
+  "version": 1,
+  "notes": [
+    {
+      "id": "total-privacy-mode",
+      "kind": "setup",
+      "text": "Crisp’s Total Privacy mode, under Chatbox Security settings, waits until a visitor opens the chatbox before starting the session and setting its cookies. Review this setting if you do not need a session for every page visitor. Check network requests separately: delaying session creation is different from delaying the chatbox script itself.",
+      "sources": [
+        "https://help.crisp.chat/en/article/crisp-chatbox-cookie-ip-policy-1147xor/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

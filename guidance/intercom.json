@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "intercom",
+  "version": 1,
+  "notes": [
+    {
+      "id": "logout-chat-session",
+      "kind": "setup",
+      "text": "If your site identifies logged-in members in Intercom, call Intercom’s shutdown method when they log out. This ends the Messenger session so another person using the same browser does not inherit access to the previous conversation. Connect it to your WordPress logout flow and test switching between accounts.",
+      "sources": [
+        "https://www.intercom.com/help/en/articles/2361922-intercom-messenger-cookies"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

@@ -15,12 +15,13 @@ the data under the [GPL-3.0](LICENSE).
 | Folder | What it holds |
 |---|---|
 | `services/` | One file per service, named after its id. |
+| `guidance/` | Optional, sourced setup notes and caveats for service pages, keyed by service id. |
 | `translations/` | The visitor-facing texts in other languages, one file per WordPress locale. |
 | `logos/` | One-colour logos, one per service that has one, named after its id. |
 | `cookies/` | A converted copy of the [Open Cookie Database](https://github.com/jkwakman/Open-Cookie-Database), for cookies no service names. |
-| `schema/` | JSON Schemas for services and translations. |
+| `schema/` | JSON Schemas for services, translations and guidance. |
 | `scripts/` | The checks, the build and the cookie conversion. |
-| `dist/` | The built files sites download, made at each release. |
+| `dist/` | Built runtime files and a separate, opt-in website guidance bundle, made at each release. |
 
 ## A service
 
@@ -98,7 +99,7 @@ Each release builds `dist/`:
 
 | File | What it holds |
 |---|---|
-| `dist/index.json` | The format, version and date, and every other file with its size and sha256. |
+| `dist/index.json` | The runtime format, version and date, and runtime files with their size and sha256. |
 | `dist/services.json` | All services. |
 | `dist/cookies.json` | The converted Open Cookie Database: `[name, wildcard, category, platform, retention, description]` rows. |
 | `dist/i18n/<locale>.json` | One language's texts. |
@@ -123,7 +124,22 @@ served at `@2`. Format 1 keeps getting releases for a year after that.
 Versions only go up. If you keep a copy of your own, ignore a release older
 than the one you have.
 
+### Optional website guidance
+
+`dist/guidance/index.json` and `dist/guidance/en.json` form a separate website
+build input. They are deliberately absent from the plugin's download index.
+The website imports an exact release, verifies the separate manifest and
+joins notes to service records by id. Services without guidance need no extra
+content. See [Service guidance](docs/guidance.md) for the format, verification
+process, language policy and pinned import example. Guidance started with
+YouTube, Google Analytics, Google Tag Manager and Stripe; the catalog review
+added other entries only where vendor documentation supports useful notes.
+
 ## Contributing
+
+The [service review ledger](docs/reviews/README.md) records researched
+corrections and unresolved findings for all 210 services. See the
+[review summary](docs/reviews/2026-11-06-completion.md) for scope and validation.
 
 Corrections and new services are welcome. Read [CONTRIBUTING.md](CONTRIBUTING.md),
 or open an issue: [add a service](../../issues/new?template=add-service.yml),

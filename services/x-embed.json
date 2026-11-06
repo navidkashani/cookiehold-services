@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "x-embed",
-  "version": 2,
+  "version": 3,
   "name": "X (Twitter) embeds",
   "provider": "X Internet Unlimited Company",
   "category": "media",
   "purpose": "Shows embedded posts and timelines.",
   "privacyUrl": "https://x.com/en/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -45,7 +45,10 @@
     "https://x.com/en/privacy",
     "https://github.com/jkwakman/Open-Cookie-Database",
     "https://www.dataprivacyframework.gov/list",
-    "https://plugins.svn.wordpress.org/custom-twitter-feeds/trunk/custom-twitter-feed.php"
+    "https://plugins.svn.wordpress.org/custom-twitter-feeds/trunk/custom-twitter-feed.php",
+    "https://help.x.com/en/rules-and-policies/x-cookies",
+    "https://help.x.com/en/x-for-websites-ads-info-and-privacy",
+    "https://platform.twitter.com/widgets.js"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }

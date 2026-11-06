@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "vimeo",
-  "version": 2,
+  "version": 3,
   "name": "Vimeo",
   "provider": "Vimeo.com, Inc.",
   "category": "media",
   "purpose": "Shows embedded videos.",
   "privacyUrl": "https://vimeo.com/privacy",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -55,7 +55,8 @@
     "https://vimeo.com/privacy",
     "https://vimeo.com/legal/privacy/policy",
     "https://help.vimeo.com/hc/en-us/articles/26080940921361-Vimeo-Player-Cookies",
-    "https://www.dataprivacyframework.gov/list"
+    "https://www.dataprivacyframework.gov/list",
+    "https://help.vimeo.com/hc/en-us/articles/12426260232977-About-Player-Parameters"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "bookingkit",
+  "version": 1,
+  "notes": [
+    {
+      "id": "optional-widget-tracking",
+      "kind": "setup",
+      "text": "Bookingkit support can disable the booking widget’s performance and personalization cookies, such as those associated with Google Analytics, Tripadvisor and YouTube. Bookingkit distinguishes these from technical and payment cookies, which it says cannot be switched off. Request the change for the widget; settings for Bookingkit’s own website are separate.",
+      "sources": [
+        "https://help.bookingkit.com/en/articles/5649665-bookingkit-and-cookie-settings"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

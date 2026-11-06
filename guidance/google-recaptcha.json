@@ -1,0 +1,26 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "google-recaptcha",
+  "version": 1,
+  "notes": [
+    {
+      "id": "alternate-domain",
+      "kind": "setup",
+      "text": "If your integration supports recaptcha.net, use its setting to switch all reCAPTCHA requests to that domain. This avoids the google.com domain and its other possible cookies, but reCAPTCHA still sets its own risk-analysis cookie and exchanges data with Google.",
+      "sources": [
+        "https://docs.cloud.google.com/recaptcha/docs/faq"
+      ],
+      "checked": "2026-11-06"
+    },
+    {
+      "id": "processor-disclosures",
+      "kind": "caveat",
+      "text": "Google changed to a processor role for reCAPTCHA customer data on April 2, 2026. Review older privacy disclosures and badge text against Google’s current instructions: references to its general Privacy Policy and Terms of Use are no longer required for reCAPTCHA. The role change does not remove the risk-analysis cookie or establish that your site’s setup meets every applicable requirement.",
+      "sources": [
+        "https://docs.cloud.google.com/recaptcha/docs/faq",
+        "https://cloud.google.com/terms/data-processing-addendum"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

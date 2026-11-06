@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "vwo",
-  "version": 2,
+  "version": 3,
   "name": "VWO",
   "provider": "Wingify Software Pvt. Ltd.",
   "category": "statistics",
   "purpose": "Runs A/B tests and measures their results.",
   "privacyUrl": "https://wingify.com/privacy-policy/",
-  "dataCountry": "USA (EU-US Data Privacy Framework)",
+  "dataCountry": "USA and other countries",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -46,7 +46,7 @@
     },
     {
       "name": "_vis_opt_exp_*",
-      "lifetime": "100 days",
+      "lifetime": "Varies by cookie",
       "purpose": "Remembers the test version shown."
     },
     {
@@ -76,7 +76,7 @@
     },
     {
       "name": "_wingify_exp_*",
-      "lifetime": "100 days",
+      "lifetime": "Varies by cookie",
       "purpose": "Remembers the test version shown."
     }
   ],
@@ -104,5 +104,5 @@
     "https://wingify.com/privacy-policy/",
     "https://www.dataprivacyframework.gov/list"
   ],
-  "checked": "2026-10-27"
+  "checked": "2026-11-06"
 }

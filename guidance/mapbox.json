@@ -1,0 +1,16 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/guidance.json",
+  "id": "mapbox",
+  "version": 1,
+  "notes": [
+    {
+      "id": "public-token-restrictions",
+      "kind": "setup",
+      "text": "Use a dedicated public access token for the website with only the permissions its map needs. Add URL restrictions for the sites allowed to use it; the default public token cannot have these restrictions. A token in a page is visible to visitors, so never place a token with secret permissions in frontend settings or code.",
+      "sources": [
+        "https://docs.mapbox.com/accounts/guides/tokens/"
+      ],
+      "checked": "2026-11-06"
+    }
+  ]
+}

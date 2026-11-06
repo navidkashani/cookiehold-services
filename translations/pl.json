@@ -416,7 +416,7 @@
     "machine": true
   },
   "google-tag-manager": {
-    "purpose": "Wczytuje pozostałe tagi witryny. Sam nie ustawia ciasteczek; każdy wczytywany tag czeka na własną zgodę.",
+    "purpose": "Wczytuje pozostałe tagi witryny.",
     "machine": true
   },
   "google-translate": {
@@ -1010,9 +1010,6 @@
   },
   "smartlook": {
     "purpose": "Nagrania sesji i analityka użytkowania.",
-    "cookies": {
-      "SL_C_*": "Odróżnia odwiedzających i utrzymuje sesję."
-    },
     "machine": true
   },
   "smartsupp": {

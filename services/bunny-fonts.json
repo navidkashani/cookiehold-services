@@ -1,13 +1,13 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "bunny-fonts",
-  "version": 1,
+  "version": 2,
   "name": "Bunny Fonts",
   "provider": "BunnyWay d.o.o.",
   "category": "functional",
   "purpose": "Loads the site's fonts from bunny.net.",
   "privacyUrl": "https://bunny.net/privacy/",
-  "dataCountry": "EU (Slovenia), served from a global CDN",
+  "dataCountry": "EU hosting; delivery through a global CDN",
   "legalBasis": "consent",
   "match": {
     "hosts": [
@@ -36,7 +36,8 @@
     "https://bunny.net/gdpr/sub-processors/",
     "https://bunny.net/network/",
     "https://wordpress.org/plugins/bunnycdn/",
-    "https://plugins.svn.wordpress.org/bunnycdn/tags/3.1.1/"
+    "https://plugins.svn.wordpress.org/bunnycdn/tags/3.1.1/",
+    "https://plugins.svn.wordpress.org/bunnycdn/tags/3.1.1/readme.txt"
   ],
-  "checked": "2026-10-31"
+  "checked": "2026-11-06"
 }
