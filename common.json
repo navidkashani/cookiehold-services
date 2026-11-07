@@ -9,6 +9,7 @@
     "fullstory",
     "google-ads",
     "google-analytics",
+    "google-maps",
     "heap",
     "hotjar",
     "hubspot",
@@ -25,8 +26,10 @@
     "snap-pixel",
     "taboola",
     "tiktok-pixel",
+    "vimeo",
     "vwo",
     "woocommerce-attribution",
-    "x-pixel"
+    "x-pixel",
+    "youtube"
   ]
 }

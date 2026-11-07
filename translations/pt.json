@@ -132,6 +132,13 @@
     "purpose": "Mostra vídeos incorporados.",
     "machine": true
   },
+  "burst-statistics": {
+    "purpose": "Conta as visitas a este site.",
+    "cookies": {
+      "burst_uid": "Distingue os visitantes."
+    },
+    "machine": true
+  },
   "cal-com": {
     "purpose": "Mostra um calendário de agendamento incorporado.",
     "machine": true
@@ -509,6 +516,11 @@
     "purpose": "Mostra publicações e imagens do Imgur incorporadas.",
     "machine": true
   },
+  "independent-analytics": {
+    "purpose": "Conta as visitas a este site.",
+    "cookies": {},
+    "machine": true
+  },
   "instagram-embed": {
     "purpose": "Mostra publicações incorporadas.",
     "machine": true
@@ -583,6 +595,13 @@
   },
   "klook": {
     "purpose": "Mostra passeios e atividades que se podem reservar.",
+    "machine": true
+  },
+  "koko-analytics": {
+    "purpose": "Conta as visitas a este site.",
+    "cookies": {
+      "_koko_analytics_pages_viewed": "Distingue visitas novas de visitas recorrentes."
+    },
     "machine": true
   },
   "komoot": {
@@ -1005,6 +1024,13 @@
     "purpose": "Mostra modelos 3D incorporados.",
     "cookies": {
       "sb_csrftoken": "Protege contra pedidos falsificados."
+    },
+    "machine": true
+  },
+  "slimstat": {
+    "purpose": "Conta as visitas a este site.",
+    "cookies": {
+      "slimstat_tracking_code": "Mantém a visita atual."
     },
     "machine": true
   },

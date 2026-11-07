@@ -1,0 +1,35 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "independent-analytics",
+  "version": 1,
+  "name": "Independent Analytics",
+  "provider": "This website",
+  "category": "statistics",
+  "purpose": "Counts visits to this site.",
+  "privacyUrl": "",
+  "dataCountry": "Stays on this website",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "iawpSearch"
+    ]
+  },
+  "cookies": [],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "independent-analytics/iawp.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://wordpress.org/plugins/independent-analytics/",
+    "https://plugins.svn.wordpress.org/independent-analytics/trunk/IAWP/REST_API.php"
+  ],
+  "checked": "2026-11-07"
+}

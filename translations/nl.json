@@ -132,6 +132,13 @@
     "purpose": "Toont ingesloten video's.",
     "machine": true
   },
+  "burst-statistics": {
+    "purpose": "Telt bezoeken aan deze site.",
+    "cookies": {
+      "burst_uid": "Onderscheidt bezoekers van elkaar."
+    },
+    "machine": true
+  },
   "cal-com": {
     "purpose": "Toont een ingesloten boekingskalender.",
     "machine": true
@@ -509,6 +516,11 @@
     "purpose": "Toont ingesloten Imgur-berichten en -afbeeldingen.",
     "machine": true
   },
+  "independent-analytics": {
+    "purpose": "Telt bezoeken aan deze site.",
+    "cookies": {},
+    "machine": true
+  },
   "instagram-embed": {
     "purpose": "Toont ingesloten berichten.",
     "machine": true
@@ -583,6 +595,13 @@
   },
   "klook": {
     "purpose": "Toont boekbare tours en activiteiten.",
+    "machine": true
+  },
+  "koko-analytics": {
+    "purpose": "Telt bezoeken aan deze site.",
+    "cookies": {
+      "_koko_analytics_pages_viewed": "Onderscheidt nieuwe van terugkerende bezoeken."
+    },
     "machine": true
   },
   "komoot": {
@@ -1005,6 +1024,13 @@
     "purpose": "Toont ingesloten 3D-modellen.",
     "cookies": {
       "sb_csrftoken": "Beschermt tegen vervalste verzoeken."
+    },
+    "machine": true
+  },
+  "slimstat": {
+    "purpose": "Telt bezoeken aan deze site.",
+    "cookies": {
+      "slimstat_tracking_code": "Houdt het huidige bezoek bij."
     },
     "machine": true
   },

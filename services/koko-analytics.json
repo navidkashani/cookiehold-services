@@ -1,0 +1,42 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "koko-analytics",
+  "version": 1,
+  "name": "Koko Analytics",
+  "provider": "This website",
+  "category": "statistics",
+  "purpose": "Counts visits to this site.",
+  "privacyUrl": "",
+  "dataCountry": "Stays on this website",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "window.koko_analytics"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "_koko_analytics_pages_viewed",
+      "lifetime": "Until midnight",
+      "purpose": "Tells new visits from returning ones."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "koko-analytics/koko-analytics.php"
+    ],
+    "handles": []
+  },
+  "sources": [
+    "https://wordpress.org/plugins/koko-analytics/",
+    "https://plugins.svn.wordpress.org/koko-analytics/trunk/src/Script_Loader.php",
+    "https://plugins.svn.wordpress.org/koko-analytics/trunk/src/Resources/functions/collect.php"
+  ],
+  "checked": "2026-11-07"
+}
