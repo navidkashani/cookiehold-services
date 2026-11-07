@@ -1,0 +1,41 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "burst-statistics",
+  "version": 1,
+  "name": "Burst Statistics",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Counts visits to this site.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {},
+  "cookies": [
+    {
+      "name": "burst_uid",
+      "lifetime": "30 days",
+      "purpose": "Tells visitors apart."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "burst-statistics/burst.php"
+    ],
+    "handles": [
+      "burst",
+      "burst-timeme"
+    ]
+  },
+  "sources": [
+    "https://wordpress.org/plugins/burst-statistics/",
+    "https://plugins.svn.wordpress.org/burst-statistics/trunk/includes/Frontend/class-frontend.php",
+    "https://plugins.svn.wordpress.org/burst-statistics/trunk/includes/Frontend/Tracking/class-tracking.php"
+  ],
+  "checked": "2026-11-07"
+}

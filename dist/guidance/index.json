@@ -1,12 +1,12 @@
 {
   "format": 1,
-  "version": "1.9.0",
+  "version": "1.10.0",
   "date": "2026-11-07",
   "files": [
     {
       "path": "en.json",
-      "size": 52582,
-      "sha256": "b8bda3f15fbb0690b3d90e5fe93ab54d6e52726d92b29b3a30aeaa4e99325192"
+      "size": 52583,
+      "sha256": "ad3f58f79e0042cad214a055b1130ff4c4413cfecd5874cae231aec6a8c782c9"
     }
   ]
 }

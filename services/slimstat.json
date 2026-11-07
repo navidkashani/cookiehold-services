@@ -1,0 +1,44 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
+  "id": "slimstat",
+  "version": 1,
+  "name": "SlimStat Analytics",
+  "provider": "",
+  "category": "statistics",
+  "purpose": "Counts visits to this site.",
+  "privacyUrl": "",
+  "dataCountry": "",
+  "legalBasis": "consent",
+  "match": {
+    "inline": [
+      "SlimStatParams"
+    ]
+  },
+  "cookies": [
+    {
+      "name": "slimstat_tracking_code",
+      "lifetime": "30 minutes",
+      "purpose": "Keeps the current visit."
+    }
+  ],
+  "storage": [],
+  "consentMode": {
+    "google": false,
+    "advanced": false
+  },
+  "placeholder": null,
+  "wordpress": {
+    "plugins": [
+      "wp-slimstat/wp-slimstat.php"
+    ],
+    "handles": [
+      "wp_slimstat"
+    ]
+  },
+  "sources": [
+    "https://wordpress.org/plugins/wp-slimstat/",
+    "https://plugins.svn.wordpress.org/wp-slimstat/trunk/wp-slimstat.php",
+    "https://plugins.svn.wordpress.org/wp-slimstat/trunk/src/Tracker/Session.php"
+  ],
+  "checked": "2026-11-07"
+}

@@ -2,6 +2,16 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.10.0 (2026-11-07)
+
+- Burst Statistics, SlimStat Analytics, Koko Analytics and Independent Analytics
+  join the list, under Statistics. Each runs on the site's own server, so no host
+  names them: Burst and SlimStat are matched by their script handles, Koko,
+  Independent Analytics and SlimStat by what they print in the page.
+- YouTube, Vimeo and Google Maps join `common`. A page builder can load them from
+  a script, so a widget added after a site's last scan had no rule on the page and
+  loaded before any choice.
+
 ## 1.9.0 (2026-11-07)
 
 - YouTube also matches `youtube.com/watch`, `youtu.be` and
