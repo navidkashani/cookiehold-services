@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-analytics",
-  "version": 4,
+  "version": 5,
   "name": "Google Analytics",
   "provider": "Google Ireland Limited",
   "category": "statistics",
@@ -78,7 +78,8 @@
       "wp-analytify-scrolldepth",
       "wp-analytify-video-tracking",
       "wp-analytify-miscellaneous-tracking",
-      "woocommerce-google-analytics-integration"
+      "woocommerce-google-analytics-integration",
+      "google_gtagjs*"
     ]
   },
   "sources": [
@@ -99,7 +100,8 @@
     "https://business.safety.google/static/assets/csv/adcookies.csv",
     "https://developers.google.com/tag-platform/gtagjs",
     "https://developers.google.com/tag-platform/security/concepts/consent-mode",
-    "https://support.google.com/analytics/answer/12017362?hl=en"
+    "https://support.google.com/analytics/answer/12017362?hl=en",
+    "https://plugins.svn.wordpress.org/google-site-kit/tags/1.190.0/includes/Core/Tags/GTag.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
 }

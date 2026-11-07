@@ -116,9 +116,9 @@
         },
         "handles": {
           "type": "array",
-          "items": { "type": "string", "pattern": "^[a-z0-9_.-]+$" },
+          "items": { "type": "string", "pattern": "^([a-z0-9_.-]+|[A-Za-z0-9_.-]{6,}\\*)$" },
           "uniqueItems": true,
-          "description": "Script handles registered by another plugin that only work together with this service, so they wait for consent with it."
+          "description": "Script handles registered by another plugin that only work together with this service, so they wait for consent with it. A trailing * makes the handle a prefix, for handles with a site's own ID in them, and needs at least six characters before it. When several prefixes fit, the longest wins."
         }
       }
     },

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "google-ads",
-  "version": 5,
+  "version": 6,
   "name": "Google Ads",
   "provider": "Google Ireland Limited",
   "category": "marketing",
@@ -55,7 +55,8 @@
       "kliken-marketing-for-google/kliken-marketing-for-google.php"
     ],
     "handles": [
-      "gla-gtag-events"
+      "gla-gtag-events",
+      "google_gtagjs-AW-*"
     ]
   },
   "sources": [
@@ -65,7 +66,8 @@
     "https://policies.google.com/privacy",
     "https://www.dataprivacyframework.gov/list",
     "https://plugins.svn.wordpress.org/google-listings-and-ads/trunk/google-listings-and-ads.php",
-    "https://plugins.svn.wordpress.org/kliken-marketing-for-google/trunk/kliken-marketing-for-google.php"
+    "https://plugins.svn.wordpress.org/kliken-marketing-for-google/trunk/kliken-marketing-for-google.php",
+    "https://plugins.svn.wordpress.org/google-site-kit/tags/1.190.0/includes/Core/Tags/GTag.php"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
 }
