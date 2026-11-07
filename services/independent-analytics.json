@@ -3,11 +3,11 @@
   "id": "independent-analytics",
   "version": 1,
   "name": "Independent Analytics",
-  "provider": "",
+  "provider": "This website",
   "category": "statistics",
   "purpose": "Counts visits to this site.",
   "privacyUrl": "",
-  "dataCountry": "",
+  "dataCountry": "Stays on this website",
   "legalBasis": "consent",
   "match": {
     "inline": [

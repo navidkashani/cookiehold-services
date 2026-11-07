@@ -7,7 +7,8 @@ Every release, newest first. Sites pick up a release within a week.
 - Burst Statistics, SlimStat Analytics, Koko Analytics and Independent Analytics
   join the list, under Statistics. Each runs on the site's own server, so no host
   names them: Burst and SlimStat are matched by their script handles, Koko,
-  Independent Analytics and SlimStat by what they print in the page.
+  Independent Analytics and SlimStat by what they print in the page. Their data
+  stays on the site, so the banner doesn't say it may leave the EU.
 - YouTube, Vimeo and Google Maps join `common`. A page builder can load them from
   a script, so a widget added after a site's last scan had no rule on the page and
   loaded before any choice.

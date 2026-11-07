@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "services.json",
-      "size": 289028,
-      "sha256": "da0453f015ec15e4c86e2000f6695cd7be440a21f61f4e34768ec6c5fd06daee"
+      "size": 289160,
+      "sha256": "456452f908d8ea51cc491472bac0899d56e816c301a75da0c0221a2c1e05ce17"
     },
     {
       "path": "cookies.json",
