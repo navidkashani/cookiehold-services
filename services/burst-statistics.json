@@ -29,6 +29,8 @@
     ],
     "handles": [
       "burst",
+      "burst-events",
+      "burst-events-bootstrap",
       "burst-timeme"
     ]
   },

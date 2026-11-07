@@ -6,8 +6,8 @@
   "files": [
     {
       "path": "services.json",
-      "size": 288988,
-      "sha256": "fbc9e1ce4e453931a35b641f024a14fd971f491604280d22ae48b554f7462c51"
+      "size": 289028,
+      "sha256": "da0453f015ec15e4c86e2000f6695cd7be440a21f61f4e34768ec6c5fd06daee"
     },
     {
       "path": "cookies.json",
@@ -16,38 +16,38 @@
     },
     {
       "path": "i18n/de.json",
-      "size": 38705,
-      "sha256": "7659beb7296c7e7a89eeacf87722081b3c47988709f67871dd536f05e1c3a63d"
+      "size": 39202,
+      "sha256": "0af660c0221563b440e54057ff46152ec0acb6f626701289ace7330039420a84"
     },
     {
       "path": "i18n/es.json",
-      "size": 40132,
-      "sha256": "62e80a0f8f152ceba70b9ff89ed43252b05be481f260fb8e96da9901f2487f58"
+      "size": 40628,
+      "sha256": "f9ffa7cc4922f016f5210f7807c45af5e3bb18c17897dfe9e6eb9681befbd948"
     },
     {
       "path": "i18n/fr.json",
-      "size": 41113,
-      "sha256": "3f28763a2ffe10e6ce7cd3a6477c498a241b58aef903ed25a989e6f2db753b5f"
+      "size": 41603,
+      "sha256": "112affb91ee4cdeb53d87f59e9800e175ade8b62fcb15e9c53335e9f27489d2f"
     },
     {
       "path": "i18n/it.json",
-      "size": 38470,
-      "sha256": "e3bd1e370351f73876a7fde3d785f4b78c4eb3d3875111024ee0cd5aa488da02"
+      "size": 38945,
+      "sha256": "71e1a187595421e59581a2ed446ed0d2d85dc05f8a1db3bdd9cf444ad482d71e"
     },
     {
       "path": "i18n/nl.json",
-      "size": 37575,
-      "sha256": "9e0efb6b0093c5e85f4fd75dc7d15febea0a61ba6d95b562d1d67a6cd54ec487"
+      "size": 38053,
+      "sha256": "73fc4cb4c701d3ce073b397bee79918f888c2d81b7d8fa93c52e2f449cfe484d"
     },
     {
       "path": "i18n/pl.json",
-      "size": 38530,
-      "sha256": "3f2b5101d16bb95c5d651a28c5ed45ce2a82bdc1a391e3e493ba4335b3414054"
+      "size": 39010,
+      "sha256": "56fd45865ea3e357020726b7cc8eb83e8f4602f19c033d7e476fab256b09eaec"
     },
     {
       "path": "i18n/pt.json",
-      "size": 38138,
-      "sha256": "cfc8b60650d53119a13286d41682ae20ec2c9b3c2b28cfc51c302ebb9494d2a1"
+      "size": 38605,
+      "sha256": "15c99afd0530001256c9d7cff6bc64eedbf4c67bfb55a6ced508c92a961a6206"
     },
     {
       "path": "logos.json",
