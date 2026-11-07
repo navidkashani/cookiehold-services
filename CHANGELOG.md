@@ -11,7 +11,7 @@ Every release, newest first. Sites pick up a release within a week.
 - WooCommerce order attribution joins `common`. It has no hosts, only cookies,
   so a scanned site that doesn't list it lost the rule and `sbjs_*` was set
   before any choice.
-- Meta Pixel lists PixelYourSite Pro's plugin file.
+- Meta Pixel lists the paid PixelYourSite's plugin file.
 
 ## 1.8.0 (2026-11-07)
 
