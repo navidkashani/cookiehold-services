@@ -2,6 +2,16 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.8.0 (2026-11-07)
+
+- Meta Pixel also waits on `fbq('track` and `fbq("track` in inline code, so a
+  plugin that prints its pixel calls apart from the base code is held with it.
+- Libsyn also matches `traffic.libsyn.com`, where episode files are served from.
+- `wordpress.handles` may end in `*` to name a prefix, with at least six
+  characters before it. Google Analytics uses `google_gtagjs*` and Google Ads
+  `google_gtagjs-AW-*`, for Site Kit's Google tag gateway, which serves the tag
+  from the site's own domain. Older plugins read the `*` as a character.
+
 ## 1.7.0 (2026-11-06)
 
 - Add optional service-page guidance: 98 sourced English setup notes and

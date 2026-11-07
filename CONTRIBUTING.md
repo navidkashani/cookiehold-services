@@ -38,7 +38,11 @@ site owners, so every change is checked before it is merged.
    `connect.facebook.net/*/sdk.js` for the SDK in any language. Keep the literal
    patterns a service already has beside it: older plugins read `*` as a
    character, so the wildcard matches nothing there.
-4. Run the checks:
+4. Add the script handles of plugins whose own code fails without the service
+   to `wordpress.handles`. A handle that holds a site's own ID can end in `*`,
+   such as `google_gtagjs*`, with at least six characters before it. When
+   several fit, the longest wins, and older plugins read the `*` as a character.
+5. Run the checks:
 
    ```
    npm install
@@ -46,7 +50,7 @@ site owners, so every change is checked before it is merged.
    npm run check
    ```
 
-5. Open a pull request and fill in the template.
+6. Open a pull request and fill in the template.
 
 ## Adding a logo
 

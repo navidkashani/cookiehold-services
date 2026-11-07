@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "libsyn",
-  "version": 2,
+  "version": 3,
   "name": "Libsyn",
   "provider": "Liberated Syndication Inc.",
   "category": "media",
@@ -12,7 +12,8 @@
   "match": {
     "hosts": [
       "play.libsyn.com",
-      "html5-player.libsyn.com"
+      "html5-player.libsyn.com",
+      "traffic.libsyn.com"
     ]
   },
   "cookies": [],
@@ -37,7 +38,8 @@
     "https://play.libsyn.com/",
     "https://www.dataprivacyframework.gov/list",
     "https://wordpress.org/plugins/libsyn-podcasting/",
-    "https://plugins.svn.wordpress.org/libsyn-podcasting/trunk/"
+    "https://plugins.svn.wordpress.org/libsyn-podcasting/trunk/",
+    "https://thefeed.libsyn.com/rss"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
 }
