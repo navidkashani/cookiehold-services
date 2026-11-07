@@ -2,6 +2,17 @@
 
 Every release, newest first. Sites pick up a release within a week.
 
+## 1.9.0 (2026-11-07)
+
+- YouTube also matches `youtube.com/watch`, `youtu.be` and
+  `youtube.com/player_api`, and Vimeo matches `vimeo.com/*`: one path segment
+  or more, never the home page. WordPress's `[video]` shortcode takes these
+  page addresses, and its player loads from them.
+- WooCommerce order attribution joins `common`. It has no hosts, only cookies,
+  so a scanned site that doesn't list it lost the rule and `sbjs_*` was set
+  before any choice.
+- Meta Pixel lists PixelYourSite Pro's plugin file.
+
 ## 1.8.0 (2026-11-07)
 
 - Meta Pixel also waits on `fbq('track` and `fbq("track` in inline code, so a

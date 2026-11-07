@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "vimeo",
-  "version": 3,
+  "version": 4,
   "name": "Vimeo",
   "provider": "Vimeo.com, Inc.",
   "category": "media",
@@ -11,7 +11,8 @@
   "legalBasis": "consent",
   "match": {
     "hosts": [
-      "player.vimeo.com"
+      "player.vimeo.com",
+      "vimeo.com/*"
     ]
   },
   "cookies": [
@@ -56,7 +57,9 @@
     "https://vimeo.com/legal/privacy/policy",
     "https://help.vimeo.com/hc/en-us/articles/26080940921361-Vimeo-Player-Cookies",
     "https://www.dataprivacyframework.gov/list",
-    "https://help.vimeo.com/hc/en-us/articles/12426260232977-About-Player-Parameters"
+    "https://help.vimeo.com/hc/en-us/articles/12426260232977-About-Player-Parameters",
+    "https://help.vimeo.com/hc/en-us/articles/12427906892689-Use-oEmbed-with-private-videos",
+    "https://core.svn.wordpress.org/trunk/wp-includes/js/mediaelement/renderers/vimeo.js"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
 }

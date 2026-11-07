@@ -1,58 +1,58 @@
 {
   "format": 1,
-  "version": "1.8.0",
+  "version": "1.9.0",
   "date": "2026-11-07",
   "services": 210,
   "files": [
     {
       "path": "services.json",
-      "size": 285606,
-      "sha256": "86c8ad551e05c50ca2d1ea9ac4c2d2518b92c0222b4e5af2e07e08dd85c03e9d"
+      "size": 286117,
+      "sha256": "efc713f68a6f994bb4f9a5b666bade83479234d20574e3f228fb94c9832d6fad"
     },
     {
       "path": "cookies.json",
       "size": 377015,
-      "sha256": "066f23ed800efa0f4db3bbd96f550aea79d33d7bac7ec572e8b5343fac72ffc8"
+      "sha256": "e1934ee2ac6d51bf30ffd32af3991b4c39f6e82dadfbf4451359a96cad33d075"
     },
     {
       "path": "i18n/de.json",
       "size": 38704,
-      "sha256": "9e127021fbcf5bf47606276ed4f9c4aff0ea06632f04dd87491fedbf034ffd4f"
+      "sha256": "f38b6e1bd836fa2098319eea58a0d9cb68b8b70ea517480ae90dc1656578709c"
     },
     {
       "path": "i18n/es.json",
       "size": 40131,
-      "sha256": "19e1c18928fa91ca49a7e828083b6281430dfb4522602a4e667fe47627578b9b"
+      "sha256": "cf0cb2ceb5d48472165d472dd28f9ff5edeca091ea4dde827e4c185122063a07"
     },
     {
       "path": "i18n/fr.json",
       "size": 41112,
-      "sha256": "0020d157342f46e6416e1c1f2cc0775711ae4587d79a20b3df7f616c67fd5c1a"
+      "sha256": "eb47691253949bcac48294a3f9be992d593b0692aa3264805504ce99cab8535f"
     },
     {
       "path": "i18n/it.json",
       "size": 38469,
-      "sha256": "f1317fa96a08570c8921e4e2836dadf7748af723115a6edfa8927118629e3a39"
+      "sha256": "0cf5d1d6d401723b307d808cc4c13d1a42200be887b669ad95087587b252fea1"
     },
     {
       "path": "i18n/nl.json",
       "size": 37574,
-      "sha256": "963ec2521f6185a2d8b2b0010b944c3b3e11e44ef71a90e22ed4dae049a74264"
+      "sha256": "092ff5e5f2920bbb0aae60e5a100f4793f89f1a82ba5a50349050a6c7a7a666d"
     },
     {
       "path": "i18n/pl.json",
       "size": 38529,
-      "sha256": "6461820878e5e05298f0c14755726e2cfb73dbc3ae503079a13e111984377a84"
+      "sha256": "5ab22d68646f73769a31b11ca0f13153a08adca281ec53f0e9b20114cf5e77e6"
     },
     {
       "path": "i18n/pt.json",
       "size": 38137,
-      "sha256": "85665f9d630cd4ebc9a6df222726f6f40783f5b6b3d5e79db39fdbc75fecea54"
+      "sha256": "677c1efea98b5f2fc29b735ca0aa34f1ac713755155006a9775f47eeb4c9c7cf"
     },
     {
       "path": "logos.json",
       "size": 108763,
-      "sha256": "2af861c972112d0f906b835ef60d2a3ace362a5b3baef92b905d5fc3cd70d250"
+      "sha256": "30030d5ae106fb660412c6b261f15651a6e54a52d61b284362a8cef957c4768b"
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "$schema": "https://cdn.jsdelivr.net/gh/veronalabs/cookiehold-services@1/schema/service.json",
   "id": "youtube",
-  "version": 4,
+  "version": 5,
   "name": "YouTube",
   "provider": "Google Ireland Limited",
   "category": "media",
@@ -14,7 +14,10 @@
       "youtube.com/embed",
       "youtube-nocookie.com/embed",
       "youtube.com/iframe_api",
-      "youtube.com/s/player"
+      "youtube.com/s/player",
+      "youtube.com/watch",
+      "youtu.be",
+      "youtube.com/player_api"
     ]
   },
   "cookies": [
@@ -59,7 +62,9 @@
     "https://support.google.com/youtube/answer/171780?hl=en",
     "https://developers.google.com/youtube/iframe_api_reference",
     "https://developers.google.com/youtube/terms/developer-policies",
-    "https://policies.google.com/faq?hl=en"
+    "https://policies.google.com/faq?hl=en",
+    "https://developers.google.com/youtube/player_parameters",
+    "https://support.google.com/youtube/answer/7174035?hl=en"
   ],
-  "checked": "2026-11-06"
+  "checked": "2026-11-07"
 }
